@@ -1,0 +1,309 @@
+
+//================================
+// Credits
+//================================
+
+// $73D92 (20 bytes)
+
+#SETMSGLOC($73D92, 20)
+
+// 　　　　　　PRODUCER　　　　　　
+      PRODUCER      
+
+
+#ENDMSG()
+
+// $73DA6 (20 bytes)
+
+#SETMSGLOC($73DA6, 20)
+
+// 　　　　　　DIRECTOR　　　　　　
+      DIRECTOR      
+
+
+
+#ENDMSG()
+
+// $73DBA (20 bytes)
+
+#SETMSGLOC($73DBA, 20)
+
+// 　　　GAME　DESIGNER　　　　
+   GAME DESIGNER    
+
+
+#ENDMSG()
+
+// $73DCE (20 bytes)
+
+#SETMSGLOC($73DCE, 20)
+
+// 　　　CARACTER　ARTIST　　
+  CHARACTER ARTIST  
+
+
+#ENDMSG()
+
+// $73DE2 (20 bytes)
+
+#SETMSGLOC($73DE2, 20)
+
+// 　　　　　　　ARTIST　　　　　　　
+       ARTIST       
+
+
+#ENDMSG()
+
+// $73DF6 (20 bytes)
+
+#SETMSGLOC($73DF6, 20)
+
+// 　　　　　PROGRAMMER　　　　　
+     PROGRAMMER     
+
+
+#ENDMSG()
+
+// $73E0A (20 bytes)
+
+#SETMSGLOC($73E0A, 20)
+
+// 　　　SOUND　COMPOSER　　　
+   SOUND COMPOSER   
+
+
+#ENDMSG()
+
+// $73E1E (20 bytes)
+
+#SETMSGLOC($73E1E, 20)
+
+// 　　　SOUND　DIRECTOR　　　
+   SOUND DIRECTOR   
+
+
+#ENDMSG()
+
+// $73E32 (20 bytes)
+
+#SETMSGLOC($73E32, 20)
+
+// 　　　SPECIAL　THANKS　　　
+   SPECIAL THANKS   
+
+
+#ENDMSG()
+
+// $73E46 (20 bytes)
+
+#SETMSGLOC($73E46, 20)
+
+// 　KATSUHIRO　HASEGAWA　
+ KATSUHIRO HASEGAWA 
+
+
+#ENDMSG()
+
+// $73E5A (20 bytes)
+
+#SETMSGLOC($73E5A, 20)
+
+// 　　HISAYOSHI　YOSHIDA　
+  HISAYOSHI YOSHIDA 
+
+
+#ENDMSG()
+
+// $73E6E (20 bytes)
+
+#SETMSGLOC($73E6E, 20)
+
+// 　　　TADASHI　IHOROI　　　
+   TADASHI IHOROI   
+
+
+#ENDMSG()
+
+// $73E82 (20 bytes)
+
+#SETMSGLOC($73E82, 20)
+
+// 　　　HIDEKI　KAWABATA　　
+   HIDEKI KAWABATA  
+
+
+#ENDMSG()
+
+// $73E96 (20 bytes)
+
+#SETMSGLOC($73E96, 20)
+
+// 　　　　KATO　HISAKAZU　　　
+    KATO HISAKAZU   
+
+
+#ENDMSG()
+
+// $73EAA (20 bytes)
+
+#SETMSGLOC($73EAA, 20)
+
+// 　　　　KENJI　TAMURA　　　　
+    KENJI TAMURA    
+
+
+#ENDMSG()
+
+// $73EBE (20 bytes)
+
+#SETMSGLOC($73EBE, 20)
+
+// 　　　TAKAHARU　INOUE　　　
+   TAKAHARU INOUE   
+
+
+#ENDMSG()
+
+// $73ED2 (20 bytes)
+
+#SETMSGLOC($73ED2, 20)
+
+// 　　TAKASHI　KOBAYASHI　
+  TAKASHI KOBAYASHI 
+
+
+#ENDMSG()
+
+// $73EE6 (20 bytes)
+
+#SETMSGLOC($73EE6, 20)
+
+// 　　TAKAAKI　KAMOHARA　　
+  TAKAAKI KAMOHARA  
+
+
+#ENDMSG()
+
+// $73EFA (20 bytes)
+
+#SETMSGLOC($73EFA, 20)
+
+// 　　　　MGA　PRODUCTS　　　　
+    MGA PRODUCTS    
+
+
+#ENDMSG()
+
+// $73F0E (20 bytes)
+
+#SETMSGLOC($73F0E, 20)
+
+// 　　　SAORI　KOBAYASHI　　
+   SAORI KOBAYASHI  
+
+
+#ENDMSG()
+
+// $73F22 (20 bytes)
+
+#SETMSGLOC($73F22, 20)
+
+// 　　　　SHUEISHA　INC[.]　　　
+    SHUEISHA INC.   
+
+
+#ENDMSG()
+
+// $73F36 (20 bytes)
+
+#SETMSGLOC($73F36, 20)
+
+// 　　　KITTY　FILM　INC[.]　　
+   KITTY FILM INC.  
+
+
+#ENDMSG()
+
+
+//================================
+// Game over yes/no prompt
+//================================
+
+// $73CE2 (8 bytes)
+
+#SETMSGLOC($73CE2, 8)
+
+// はい　　　いいえ
+Yes  No 
+
+
+#ENDMSG()
+
+
+
+//================================
+// Newly added subtitle for intro
+// voice sample
+//================================
+
+#SETMSGLOC(0x0, 0)
+
+//================
+  Show yourself!  
+It's time, Zenki! 
+                  
+                  
+//================
+
+#ENDMSG()
+
+//================================
+// Splash screen
+//================================
+
+#SETMSGLOC(0x1, 0)
+
+//==================
+//X                  X
+//                    
+//                    
+//                    
+//                    
+//                    
+//                    
+//                    
+//          X         
+//                    
+//                    
+//                    
+//                    
+//                    
+//                    
+//                    
+//                    
+//X                  X
+//==================
+
+//==================
+                    
+ Kishin Douji Zenki 
+      English       
+ Translation Patch  
+                    
+                    
+ Translation        
+   TheMajinZenki    
+                    
+ Translation Check  
+   Filler           
+                    
+ Hacking            
+   Supper           
+                    
+ Testing            
+   cccmar           
+                    
+//==================
+
+#ENDMSG()
+

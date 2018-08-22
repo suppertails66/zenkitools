@@ -1,0 +1,1743 @@
+// String 0x0
+// 　　　　コレ　ヒトニツキ[BR]
+// 　ノゾミヲ　カナエル　モノナリ
+There is something[BR]
+capable of grant-[BR]
+ing the wishes of[BR]
+   a mortal...
+
+#END()
+
+// String 0x1
+// 　　・・・ひょういのみ・・・
+ ...seeds of[BR]
+  possession...
+
+#END()
+
+// String 0x2
+// 　こらいより　にほんかくちに[BR]
+// 　それは　ふういんされてきた
+  They have been[BR]
+ sealed all over[BR]
+   Japan since[BR]
+  ancient times.
+
+#END()
+
+// String 0x3
+// しかし　いま　なにものかによって
+However, the seals[BR]
+ on the seeds of[BR]
+    possession
+
+#END()
+
+// String 0x4
+// 　ひょういのみの　ふういんが[BR]
+// 　とかれようとしていた・・・
+ are about to be[BR]
+    broken by[BR]
+    someone...
+
+#END()
+
+// String 0x5
+// 　　いったい　なんのおと[!?]
+What was that[BR]
+sound?!
+
+#END()
+
+// String 0x6
+// 　　　　　　ああっ！
+Aah--!
+
+#END()
+
+// String 0x7
+// 　こわいか？　こむすめ・・・
+Are you scared,[BR]
+little girl?
+
+#END()
+
+// String 0x8
+// 　　いま　くってやるぞ・・・
+I'm gonna devour[BR]
+you now...
+
+#END()
+
+// String 0x9
+// 　　　[!!]・・・リングが[!?]
+(gasp)...The[BR]
+ring?!
+
+#END()
+
+// String 0xA
+// 「・・・リングが　かがやくとき[BR]
+// 　ゼンキ　よみがえらん・・・」
+{When the ring[BR]
+shines, Zenki[BR]
+shall awaken...}
+
+#END()
+
+// String 0xB
+// 　　・・・そうだ[!!]　ゼンキ[!!]
+...That's right![BR]
+Zenki!
+
+#END()
+
+// String 0xC
+// たまふりて　げんしょうせよ！！！
+I order thy soul[BR]
+to appear before[BR]
+me!
+
+#END()
+
+// String 0xD
+// 　　　なんじ　ゼンキ！！！
+Show yourself,[BR]
+Zenki!
+
+#END()
+
+// String 0xE
+// われにしたがい　じゃをはらえ[!!]
+Obey my will and[BR]
+dispel evil!!
+
+#END()
+
+// String 0xF
+// 　　げ！　な　なんだこりゃ[!!][BR]
+// 　　おれさまの　からだが[!?]
+Gah! W-What the[BR]
+heck! What happ-[BR]
+ened to me?!
+
+#END()
+
+// String 0x10
+// 　　　　あはっ　かわいい
+Ahah, he's so[BR]
+cute.
+
+#END()
+
+// String 0x11
+// 　おづぬのクソジジイ　からだに[BR]
+// 　さいくしやがったな[!?]
+That old fart Ozu-[BR]
+nu must have done[BR]
+something to my[BR]
+body!!
+
+#END()
+
+// String 0x12
+// 　　　　はっはっはっは[!!]
+Hahahahah!
+
+#END()
+
+// String 0x13
+// 　　さいきょうの　きしんだか[BR]
+// 　　なんだか　しらねえが
+So much for the[BR]
+{strongest} of de-[BR]
+mon gods!
+
+#END()
+
+// String 0x14
+// 　　そんなんじゃ　いぬがみは[BR]
+// 　　たおせねえぜ
+You'll never de-[BR]
+feat Inugami like[BR]
+that.
+
+#END()
+
+// String 0x15
+// 　　　　　　あなたは[!?]
+Who are you?!
+
+#END()
+
+// String 0x16
+// 　　おれは　みき　そうま[BR]
+// 　　かげこうやの　たいましさ
+Name's Souma Miki.[BR]
+I'm an exorcist of[BR]
+the Kagekouya.
+
+#END()
+
+// String 0x17
+// 　　ふん　たいましごときが[BR]
+// 　　いったい　なんのようだ[!?]
+Hmph, and what's a[BR]
+puny exorcist do-[BR]
+ing here?!
+
+#END()
+
+// String 0x18
+// ひょういのみを　あくようしてる[BR]
+// れんちゅうがいる・・・
+There are folks[BR]
+planning to misuse[BR]
+the seeds of po-[BR]
+ssession.
+
+#END()
+
+// String 0x19
+// おれたちは　すべてのみをあつめ[BR]
+// こうやさんへ　ふういんして
+We collect all of[BR]
+them, and seal[BR]
+them on Mt. Kouya.
+
+#END()
+
+// String 0x1A
+// 　あくとうどもから　まもろうと[BR]
+// 　しているのさ
+That's how we'll[BR]
+keep 'em from bas-[BR]
+tards like them.
+
+#END()
+
+// String 0x1B
+// ふうん　もっとくわしい　はなしが[BR]
+// ききたいわね
+Hmm, I see. I'd[BR]
+like to hear more[BR]
+about this.
+
+#END()
+
+// String 0x1C
+// 　わたしたちも　こうやさんへ[BR]
+// 　つれていってよ！
+C'mon, take us to[BR]
+Mt. Kouya!
+
+#END()
+
+// String 0x1D
+// おい　ちあき！　こんなぼうず[BR]
+// しんようすんのか[!?]
+Hey, Chiaki![BR]
+You're gonna trust[BR]
+this monk just[BR]
+like that?!
+
+#END()
+
+// String 0x1E
+// ふん・・・こんなやつ　ほっといて[BR]
+// こうやさんへ　いそごうぜ
+Hmph. Forget about[BR]
+that shrimp. Let's[BR]
+hurry to Mt. Kou-[BR]
+ya.
+
+#END()
+
+// String 0x1F
+// 　　くっくっくっくっ・・・
+Heh heh heh heh...
+
+#END()
+
+// String 0x20
+// 　オレは　いぬがみ　してんのう[BR]
+// 　ジャゲンブの「ヒキ」
+I am one of Inuga-[BR]
+mi's Four Heavenly[BR]
+Kings, Hiki the[BR]
+Dark Tortoise.
+
+#END()
+
+// String 0x21
+// 　　　　いぬがみ・・・[BR]
+// 　　　　してんのう[!?]
+Inugami's...Four[BR]
+Heavenly Kings?!
+
+#END()
+
+// String 0x22
+// 　　むすめ　よくきけ[BR]
+// 　　われらが　いぬがみさまは
+Listen well, litt-[BR]
+le girl. Our lord,[BR]
+Inugami,
+
+#END()
+
+// String 0x23
+// このくさりきった　よのなかを[BR]
+// こくていによって　しゅくせいし
+will purge this[BR]
+rotten world with[BR]
+Kokutei's power,
+
+#END()
+
+// String 0x24
+// 　じゅじゅつしゃが　しはいする[BR]
+// 　せかいを
+and create a new[BR]
+world that will be[BR]
+ruled by masters
+
+#END()
+
+// String 0x25
+// 　おつくりになろうと　している
+of the occult such[BR]
+as us.
+
+#END()
+
+// String 0x26
+// 　なんて　ひどいことを・・・
+T-That's horri-[BR]
+ble...
+
+#END()
+
+// String 0x27
+// 　　じゅじゅつを　つかって[BR]
+// 　　なにが　しゅくせいよ[!!]
+Dark magic will[BR]
+never create a[BR]
+better world!!
+
+#END()
+
+// String 0x28
+// 　ふん　せいぜいほざくがいい
+Hmph. Say what you[BR]
+will.
+
+#END()
+
+// String 0x29
+// 　きさまらなど　いま　このばで[BR]
+// 　いちげきで　ほうむってくれる
+After all, this[BR]
+place shall be[BR]
+your grave.
+
+#END()
+
+// String 0x2A
+// やったー！　ゼンキは　むてきよ！
+Yay! You're un-[BR]
+beatable, Zenki!
+
+#END()
+
+// String 0x2B
+// あいつのもってた「ひょういのみ」[BR]
+// もとりもどせたし！
+We even reclaimed[BR]
+the seed of po-[BR]
+ssession he had!
+
+#END()
+
+// String 0x2C
+// 　　　　　ちくしょう[!!]
+Damn it all!!
+
+#END()
+
+// String 0x2D
+// ・・みんな・やられちまった・・・[BR]
+// 「だいそうじょうさま」まで・・・
+...They're all[BR]
+dead...Even Master[BR]
+Daisoujou...
+
+#END()
+
+// String 0x2E
+// ぜったいゆるさん[!!]　いぬがみ[!!]
+I'll never forgive[BR]
+you for this, Inu-[BR]
+gami!!
+
+#END()
+
+// String 0x2F
+// それで　おまえ　やつらの[BR]
+// いばしょは　わかっているのか？
+Do you know where[BR]
+they're hiding?
+
+#END()
+
+// String 0x30
+// ああ・・　だいたいの　ばしょはな
+Yeah...I know the[BR]
+general area.
+
+#END()
+
+// String 0x31
+// じゃあ　さきを　いそぎましょう！
+Then let's hurry!
+
+#END()
+
+// String 0x32
+// 　　　くくくく・・・・・・
+Hahahahaha...
+
+#END()
+
+// String 0x33
+// 　　　のこのこと・・・・・
+You fools...
+
+#END()
+
+// String 0x34
+// 　このやかたに　まよいこんで[BR]
+// 　くるとは・・・・・
+To stumble into[BR]
+this mansion so[BR]
+carelessly...
+
+#END()
+
+// String 0x35
+// 　　　いぬがみ　してんのう
+I, one of Inuga-[BR]
+mi's Four Heavenly[BR]
+Kings,
+
+#END()
+
+// String 0x36
+// 　　ジャスジャクこと　この[BR]
+// 　　やみのまおう「ちまる」が
+the King of[BR]
+Darkness, Chimaru[BR]
+the Dark Phoenix,
+
+#END()
+
+// String 0x37
+// 　　しまつしてやろう！！！
+shall deal with[BR]
+you!!
+
+#END()
+
+// String 0x38
+// ゼンキ！　きしんしょうかんよ[!!]
+It's showtime,[BR]
+Zenki!
+
+#END()
+
+// String 0x39
+// 　まさか　ヤツのほんたいが[BR]
+// 　あの　カタナだったとは・・
+Who knew his real[BR]
+body was actually[BR]
+the sword?...
+
+#END()
+
+// String 0x3A
+// 　へっ　どんなヤツが　こようと[BR]
+// 　ゼンキさまは　むてきだぜ[!!]
+Heh! No matter[BR]
+what they try, I,[BR]
+the great Zenki,[BR]
+am invincible!
+
+#END()
+
+// String 0x3B
+// 　つよがりばっか　いっちゃって
+Yeah, right.
+
+#END()
+
+// String 0x3C
+// 　　　　　なんだとー[!!][BR]
+// 　　この　くそちあきがー[!!]
+What was that?![BR]
+Say that to my[BR]
+face, wench!
+
+#END()
+
+// String 0x3D
+// 　　　　なんですってー[!!]
+What did you just[BR]
+call me?!
+
+#END()
+
+// String 0x3E
+// 　　こんなんで　いぬがみを[BR]
+// 　　たおせるんだろうか・・・
+I'm starting to[BR]
+wonder if we can[BR]
+REALLY defeat Inu-[BR]
+gami...
+
+#END()
+
+// String 0x3F
+// オレは　いぬがみ　してんのうの[BR]
+// ひとり　ジャビャッコの「きもん」
+I am one of Inu-[BR]
+gami's Four Heav-[BR]
+enly Kings, Kimon[BR]
+the Dark Tiger.
+
+#END()
+
+// String 0x40
+// オマエらのような　れんちゅうが[BR]
+// いぬがみさまに　たてつこうなど
+You weaklings will[BR]
+never defeat our[BR]
+lord, Inugami!
+
+#END()
+
+// String 0x41
+// 　１０００ねん　はやいぜ！！！
+Not in a thousand[BR]
+years!
+
+#END()
+
+// String 0x42
+// 　　　　　おもしれえ[!!]
+Oh yeah?! We'll[BR]
+see about that!
+
+#END()
+
+// String 0x43
+// ちあき！　きしんしょうかんだ[!!]
+Chiaki, summon my[BR]
+true form already!
+
+#END()
+
+// String 0x44
+// なかなかやるな　しかし　きさまに[BR]
+// オレを　たおすことはできん
+Not bad. But[BR]
+you'll never de-[BR]
+feat me!
+
+#END()
+
+// String 0x45
+// 　わが　じゅつで　しぬのだ[!!]
+Perish before my[BR]
+true power!
+
+#END()
+
+// String 0x46
+// 　ちっ　このままじゃやばいぜ[BR]
+// 　あれを　つかうしかねえか・・
+Tch...This isn't[BR]
+good. I'll have to[BR]
+use THAT...
+
+#END()
+
+// String 0x47
+// 　ひっさつの　こうじゅつ・・・[BR]
+// 　「ルドラ」を！！！
+My most powerful[BR]
+skill...
+{Rudra}!!
+
+#END()
+
+// String 0x48
+// 　　　　　イカズチよ[!!]
+    Thunder!!
+
+#END()
+
+// String 0x49
+// わがいのちと　ひとつとなりて[BR]
+// すべてを　ほろぼす　こうらいと
+Become one with my[BR]
+life! Let your[BR]
+light lay waste[BR]
+
+#END()
+
+// String 0x4A
+// 　　　　　　なれ！！！
+to all those be-[BR]
+fore you!
+
+#END()
+
+// String 0x4B
+// 　　　　　ルドラ！！！
+     RUDRA!!
+
+#END()
+
+// String 0x4C
+// オレさまは　ぜったいに　しなねえ
+I'll never die...[BR]
+Never.
+
+#END()
+
+// String 0x4D
+// 　そうだよ・・・な・・・・・・[BR]
+// 　・・おづぬの・じじい・・・・
+Ain't that[BR]
+right...[BR]
+...Ozunu, you[BR]
+old bastard...?
+
+#END()
+
+// String 0x4E
+// 　・・ご・・・・・き・・・・・・
+...Goki...
+
+#END()
+
+// String 0x4F
+// ええっ[!?]　ゼ・・ゼンキ・・が・・[BR]
+// ・・・し・・・ん・・・・だ・・・
+(gasp)[BR]
+Z-Zenki...[BR]
+...is...dead...
+
+#END()
+
+// String 0x50
+// 　　　　　ばかやろう[!!]
+You idiot!!
+
+#END()
+
+// String 0x51
+// なんでてめえが　しんじまうんだ！
+Why did you have[BR]
+to throw your life[BR]
+away?!
+
+#END()
+
+// String 0x52
+// オレとの・・・けっちゃくは・・・[BR]
+// どうするんだよ・・・
+How are we going[BR]
+to settle our[BR]
+score if you're[BR]
+dead?!
+
+#END()
+
+// String 0x53
+// 　うそだよ・・　こんなの・・・[BR]
+// 　いやあああ！！　ゼンキー！！
+This can't be[BR]
+real...[BR]
+NOOOO!![BR]
+ZENKIII!!
+
+#END()
+
+// String 0x54
+// ・・だいすき・だったんだぞ・・
+...I really liked[BR]
+you...
+
+#END()
+
+// String 0x55
+// 　　　　　　えっ[!?]
+Huh?!
+
+#END()
+
+// String 0x56
+// おい[!!]　きこえるか[!?]　ちあき[!!]
+Hey, Chiaki! Can[BR]
+you hear me?!
+
+#END()
+
+// String 0x57
+// 　ゼンキ[!!]　いきていたのね[!!]
+Zenki, you're[BR]
+alive!
+
+#END()
+
+// String 0x58
+// 　このオレさまが　かんたんに[BR]
+// 　しぬかよ！
+A badass like me[BR]
+ain't gonna die[BR]
+that easily!
+
+#END()
+
+// String 0x59
+// だが　にくたいが　くだけたのは[BR]
+// ふかくだったぜ！
+But I messed up[BR]
+big time! My body[BR]
+is in pieces!
+
+#END()
+
+// String 0x5A
+// はやく　なんとかしろ！　ちあき！
+You gotta do some-[BR]
+thing, Chiaki!
+
+#END()
+
+// String 0x5B
+// なんとかしろって　いったって・・
+That's easy for[BR]
+you to say...
+
+#END()
+
+// String 0x5C
+// 　　　　　　あっ！！
+Ahh!
+
+#END()
+
+// String 0x5D
+// 　　わが　ちからをつぎし[BR]
+// 　　ものよ　しんぱいはいらぬ
+Be not distressed,[BR]
+O heir of my pow-[BR]
+ers.
+
+#END()
+
+// String 0x5E
+// 　いままでの　ゼンキのからだは[BR]
+// 　やみより　うまれしもの
+Zenki's body was[BR]
+one born from[BR]
+darkness.
+
+#END()
+
+// String 0x5F
+// しかし　ゼンキの　たましいは[BR]
+// 「ヒカリのせいめいりょく」をもつ
+But Zenki's soul[BR]
+now carries the[BR]
+energy of light.
+
+#END()
+
+// String 0x60
+// ゼンキは「ヒカリのせいめいりょく」[BR]
+// にみあう「ヒカリのきしん」に
+He deserves to be[BR]
+reborn into a be-[BR]
+fitting body
+
+#END()
+
+// String 0x61
+// 　　　　うまれかわるのだ
+as a demon god of[BR]
+light.
+
+#END()
+
+// String 0x62
+// いまいじょうに　つよくなり[BR]
+// にんげんの　かんぜんなる　みかたと
+He shall become[BR]
+stronger,
+
+#END()
+
+// String 0x63
+// 　　　　　なるであろう
+and become the[BR]
+perfect ally of[BR]
+mankind.
+
+#END()
+
+// String 0x64
+// 　　そのためには「しゅご」と[BR]
+// 　　「そうぞう」のちからをもつ
+For that to happ-[BR]
+en, you must seek[BR]
+my other demon god
+
+#END()
+
+// String 0x65
+// 　　わがもうひとりの　きしん
+who wields the[BR]
+power of {protec-[BR]
+tion} and {crea-[BR]
+tion}:
+
+#END()
+
+// String 0x66
+// 　　ゴキのちからがひつようだ
+Goki.
+
+#END()
+
+// String 0x67
+// ゴキをさがし　ともに[BR]
+// じゃあくなものと　たたかうのだ[!!]
+Thou shalt journey[BR]
+with Goki, and[BR]
+fight with him[BR]
+against evil!
+
+#END()
+
+// String 0x68
+// 　　ゴキ！　ゴキをさがせば[BR]
+// 　　ゼンキは　よみがえるのね[!!]
+So, if we seek out[BR]
+this Goki, we can[BR]
+bring Zenki back!
+
+#END()
+
+// String 0x69
+// 　　にんげんの　みかただと[!?][BR]
+// 　　ふざけるな　クソジジイ[!!]
+Me? An ally of[BR]
+mankind?! You[BR]
+gotta be kidding[BR]
+me, you old fart!
+
+#END()
+
+// String 0x6A
+// 　　　　　ゴ・・・キ？
+Goki...?
+
+#END()
+
+// String 0x6B
+// 　　　おもいだしたぜ！！！
+That's it!
+
+#END()
+
+// String 0x6C
+// 　そういえば　おおみねさんに[BR]
+// 「ごきづか」というばしょがある
+On top of Mt. Oo-[BR]
+mine, there's a[BR]
+burial mound named[BR]
+Gokizuka.
+
+#END()
+
+// String 0x6D
+// 　あそこにいけば　ゴキのことも[BR]
+// 　きっとわかるに　ちがいないぜ[!!]
+I'm sure we'll be[BR]
+able to find out[BR]
+about Goki if we[BR]
+go there!
+
+#END()
+
+// String 0x6E
+// 　おおみねさんなら　ここから[BR]
+// 　そんなに　とおくないわ[!!]
+And Mt. Oomine[BR]
+isn't that far[BR]
+away from here!
+
+#END()
+
+// String 0x6F
+// さあ[!!]　はやく　いきましょう[!!]
+Then let's not[BR]
+waste any time!
+
+#END()
+
+// String 0x70
+// ついたぜ　ここが「ごきづか」だ
+Here we are. This[BR]
+is Gokizuka.
+
+#END()
+
+// String 0x71
+// だめだ[!!]　ゴキのにおいは　するが[BR]
+// 「き」も「ちから」もかんじねえ[!!]
+Damn it! I can[BR]
+smell Goki, but I[BR]
+can't feel his en-[BR]
+ergy at all!
+
+#END()
+
+// String 0x72
+// 　ゴキ[!!]　めざめて[!!]　あなたの[BR]
+// 　ちからが　ひつようなのよ[!!]
+Awaken, Goki![BR]
+We need your[BR]
+strength!
+
+#END()
+
+// String 0x73
+// そこを　さがしても　むだですよ
+There is no point[BR]
+searching over[BR]
+there.
+
+#END()
+
+// String 0x74
+// 　　　　　あなたは[!?]
+Who are you?!
+
+#END()
+
+// String 0x75
+// 　　しゅごきしん　ゴキ[!!][BR]
+// 　　てんしょう　こうりん[!!]
+The demon god of[BR]
+protection, Goki,[BR]
+has been reincar-[BR]
+nated!
+
+#END()
+
+// String 0x76
+// ぼくは　にんげんの　ちのなかで[BR]
+// てんしょうを　つづけてきました
+I have continuous-[BR]
+ly reincarnated[BR]
+among humans,
+
+#END()
+
+// String 0x77
+// あたらしい　マスターがぼくを[BR]
+// ひつようとする　ときまで・・・
+waiting until a[BR]
+new master would[BR]
+have need of me.
+
+#END()
+
+// String 0x78
+// ゼンキとマスターの　ねがいをうけ[BR]
+// ぼくは　めざめました
+I awoke in re-[BR]
+sponse to your[BR]
+pleas.
+
+#END()
+
+// String 0x79
+// つぎはゼンキが　よみがえるばんです[BR]
+// しかしゼンキを　よみがえらすには
+Now it's Zenki's[BR]
+turn to be brought[BR]
+back. But doing so[BR]
+requires five
+
+#END()
+
+// String 0x7A
+// 「ち・すい・か・ふう・くう」の[BR]
+// 　５コのたまが　ひつようです
+elemental orbs:[BR]
+{earth}, {water},[BR]
+{fire}, {wind},[BR]
+and {aether}.
+
+
+#END()
+
+// String 0x7B
+// さすがマスター！　すでにすべての[BR]
+// たまを　あつめて　きたのですね
+Oh, I'm impressed,[BR]
+Master! You've al-[BR]
+ready gathered[BR]
+them!
+
+#END()
+
+// String 0x7C
+// 　　さあ　ゼンキをふっかつ[BR]
+// 　　させましょう[!!]
+Then we shall re-[BR]
+vive Zenki. Let's[BR]
+begin!
+
+#END()
+
+// String 0x7D
+// いままで　とおってきた　みちに[BR]
+// たまは　かくされています
+The orbs are hidd-[BR]
+en along the path[BR]
+you've trodden so[BR]
+far.
+
+#END()
+
+// String 0x7E
+// 　　さあマスター！　いそいで[BR]
+// 　　たまを　あつめましょう！
+Come now, Master![BR]
+Let us hurry and[BR]
+gather the orbs!
+
+#END()
+
+// String 0x7F
+// 　マスター　まだすべてのたまが[BR]
+// 　あつまっていません・・・
+Master, you hav-[BR]
+en't gathered all[BR]
+the orbs yet...
+
+#END()
+
+// String 0x80
+// 　これでは　ゼンキをふっかつ[BR]
+// 　させることが　できません
+We cannot revive[BR]
+Zenki until you[BR]
+do!
+
+#END()
+
+// String 0x81
+// 　　さあマスター！　いそいで[BR]
+// 　　たまを　あつめましょう！
+Come now, Master![BR]
+Let us hurry and[BR]
+gather the orbs!
+
+#END()
+
+// String 0x82
+// 　マスター！　ついに　すべての[BR]
+// 　たまを　あつめましたね[!!]
+Master, you've ga-[BR]
+thered the five[BR]
+orbs!
+
+#END()
+
+// String 0x83
+// 　　さあ　ゼンキをふっかつ[BR]
+// 　　させましょう[!!]
+Then we shall re-[BR]
+vive Zenki. Let's[BR]
+begin!
+
+#END()
+
+// String 0x84
+// 　　　ごだいしょうらい[!!]
+I call forth the[BR]
+five elements!
+
+#END()
+
+// String 0x85
+// マスター！　ヴァジュラのちからを[BR]
+// しゅうちゅうしてイメージするんです
+Master, you must[BR]
+focus the power of[BR]
+vajura, and pic-[BR]
+ture in your mind
+
+#END()
+
+// String 0x86
+// 　かんぜんな　きしんのすがたを[!!]
+the form of the[BR]
+perfect demon god!
+
+#END()
+
+// String 0x87
+// 　　　　　わかったわ[!!]
+Got it!
+
+#END()
+
+// String 0x88
+// 　よみがえって[!!]　ゼンキー[!!]
+Return among us,[BR]
+Zenki!
+
+#END()
+
+// String 0x89
+// 　　ヴァジュラオン　アーク
+  Vajura-on-Ark!
+
+#END()
+
+// String 0x8A
+// 　　　　　　ラジャス
+Break free!
+
+#END()
+
+// String 0x8B
+// 　　　ちょうきしんゼンキ
+The great demon[BR]
+god Zenki...
+
+#END()
+
+// String 0x8C
+// 　　　らいごう　しょうりん
+...has descended[BR]
+upon you!
+
+#END()
+
+// String 0x8D
+// ゼンキが　よみがえった[!!][BR]
+// ひかりかがやく　きしんとなって
+Zenki's back![BR]
+And he's a proper[BR]
+demon god of[BR]
+light!
+
+#END()
+
+// String 0x8E
+// 　　ゼンキ　せんねんぶりだね
+It's been a thou-[BR]
+sand years, Zenki.
+
+#END()
+
+// String 0x8F
+// ケッ　できれば　テメエの[BR]
+// ちからなど　かりたくなかったがな
+Tch. I really did[BR]
+NOT want your help[BR]
+with this.
+
+#END()
+
+// String 0x90
+// 　　　　　　くす
+(giggle)
+
+#END()
+
+// String 0x91
+// 　「せんねんまえと　ちっとも[BR]
+// 　　かわってないな・・・・・」
+(He hasn't changed[BR]
+at all in the last[BR]
+1,000 years...)
+
+#END()
+
+// String 0x92
+// 　　　さあ　いぬがみどもを[BR]
+// 　　　ぶちたおしにいくぜ[!!]
+Alright then! It's[BR]
+time to kick some[BR]
+Inugami ass!
+
+#END()
+
+// String 0x93
+// 　　　いぬがみ　してんのう
+I am one of Inuga-[BR]
+mi's Four Heavenly[BR]
+Kings,
+
+#END()
+
+// String 0x94
+// 　ジャセイリュウの「ドクロそう」
+Dokuro Sou the[BR]
+Dark Dragon.
+
+#END()
+
+// String 0x95
+// 　わたしは　みずを　じざいに[BR]
+// 　あやつることが　できる
+I have complete[BR]
+control over wa-[BR]
+ter.
+
+#END()
+
+// String 0x96
+// 　　みずのちからは　いわすら[BR]
+// 　　きりさく・・・・・
+The force of water[BR]
+tears even rocks[BR]
+to shreds...
+
+#END()
+
+// String 0x97
+// さらに　わたしがあやつる　みずは[BR]
+// ダイヤモンドすら　きりさくのだ[!!]
+And the water I[BR]
+wield splits dia-[BR]
+monds to boot!
+
+#END()
+
+// String 0x98
+// 　　　　　　しね[!!]
+Perish!!
+
+#END()
+
+// String 0x99
+// うまれかわった　ゼンキのちからを[BR]
+// みせてあげるわ[!!]
+Let us show you[BR]
+how strong Zenki[BR]
+is now that he's[BR]
+reborn!
+
+#END()
+
+// String 0x9A
+// 　　きしん　しょうかんよ[!!]
+It's showtime!!
+
+#END()
+
+// String 0x9B
+// 　　　　ぐうううう・・・
+ARRGH!!
+
+#END()
+
+// String 0x9C
+// 　ぬうううう　コロシてやる・・・[BR]
+// 　おまえを　コロシてやる・・・・
+Mnnngh...kill[BR]
+you...I'll kill[BR]
+you...!
+
+#END()
+
+// String 0x9D
+// 　　この　ひょういのみを[BR]
+// 　　とりこんだ　わがちから
+This seed of po-[BR]
+ssession will un-[BR]
+lock my true pow-[BR]
+er!
+
+#END()
+
+// String 0x9E
+// 　　　　　　みよ[!!]
+BEHOLD!!
+
+#END()
+
+// String 0x9F
+// みたか！　オレさまはムテキだぜ！
+Hah! I told you I[BR]
+was invincible!
+
+#END()
+
+// String 0xA0
+// 　　　やったー[!!]　ゼンキ[!!]
+Way to go, Zenki!
+
+#END()
+
+// String 0xA1
+// 　ここまでくれば　いぬがみの[BR]
+// 　ホンキョチは　もうめのまえ
+We've come so far.[BR]
+Inugami's strong-[BR]
+hold has to be[BR]
+near.
+
+#END()
+
+// String 0xA2
+// 　さあ　さいごのけっせんよ[!!]
+Okay, this is the[BR]
+final battle!!
+
+#END()
+
+// String 0xA3
+// ここが　いぬがみのホンキョチね[BR]
+// くらくて　なにも　みえないわ
+So this is Inuga-[BR]
+mi's stronghold...[BR]
+It's so dark I can[BR]
+hardly see!
+
+#END()
+
+// String 0xA4
+// 　　　みんな　きをつけて[!!]
+Be careful, guys!
+
+#END()
+
+// String 0xA5
+// 　　まさか　キミたちが[BR]
+// 　　ここまで　これるとはね
+You actually man-[BR]
+aged to come this[BR]
+far...
+
+#END()
+
+// String 0xA6
+// 　　しかし　その　こううんも[BR]
+// 　　ここで　おわりだ[!!]
+You must have been[BR]
+very lucky. Howev-[BR]
+er, your luck has[BR]
+just run out.
+
+#END()
+
+// String 0xA7
+// 　　　　　しね！！！
+DIE!!
+
+#END()
+
+// String 0xA8
+// 　　　あぶない　マスター[!!]
+Watch out, Master!
+
+#END()
+
+// String 0xA9
+// いぬがみ[!!]　テメエの　あいては[BR]
+// オレさまだ[!!]　でてきやがれ[!!]
+I'm the one you're[BR]
+up against, Inuga-[BR]
+mi! Come out and[BR]
+fight like a man!
+
+#END()
+
+// String 0xAA
+// 　　　ふっ　ちからのさを
+Hmph. Then let me[BR]
+show you...
+
+#END()
+
+// String 0xAB
+// 　おもいしらせて　あげるよ[!!]
+...how pitifully[BR]
+weak you really[BR]
+are!
+
+#END()
+
+// String 0xAC
+// 　　すこしは　やるようだな[BR]
+// 　　だが・・・・・・・・・
+You're not half[BR]
+bad. However...
+
+#END()
+
+// String 0xAD
+// 　　　　はああああッ[!!]
+HAAAAH!!
+
+#END()
+
+// String 0xAE
+// 　　　ましんじゅうよ[!!][BR]
+// 　　　ボクにちからを[!!]
+Devil beast, grant[BR]
+me power!!
+
+#END()
+
+// String 0xAF
+// これこそ　ましんじゅうのパワーと[BR]
+// いったいかした「いぬがみろう」だ[!!]
+I have become one[BR]
+with the devil[BR]
+beast! This is the[BR]
+real Inugami Roh!
+
+#END()
+
+// String 0xB0
+// 　ボクが　このちからをもって[BR]
+// 　このよを　じょうかしてやる[!!]
+Now that I wield[BR]
+the ultimate pow-[BR]
+er, I shall purify[BR]
+this world!!
+
+#END()
+
+// String 0xB1
+// 　　　　　きかないね[!!]
+That won't work!
+
+#END()
+
+// String 0xB2
+// ましんじゅうの　パワーをうけている[BR]
+// ボクは　ふじみなのさ！！！
+Thanks to the pow-[BR]
+er of the devil[BR]
+beast, I am immor-[BR]
+tal!!
+
+#END()
+
+// String 0xB3
+// 　　　　　　ちッ[!!]
+Damn it!
+
+#END()
+
+// String 0xB4
+// このままじゃ　らちがあかねえ[!!]
+I'll never take[BR]
+him down like[BR]
+this!
+
+#END()
+
+// String 0xB5
+// 　ちあき[!!]　ゴキ[!!]　オマエらの[BR]
+// 　ちからをオレによこせ[!!]
+Chiaki, Goki![BR]
+Give me your pow-[BR]
+er!
+
+#END()
+
+// String 0xB6
+// 　ええッ[!!]　なにをするきなの[!?][BR]
+// 　　　　　　ゼンキ[!!]
+Huh?! What are you[BR]
+trying to do now,[BR]
+Zenki??
+
+#END()
+
+// String 0xB7
+// 　ヤツを　たおすのはオレさまの[BR]
+// 　ちからだけでは　むりだ・・・
+It's painfully[BR]
+clear that my pow-[BR]
+er alone can't[BR]
+beat him...
+
+#END()
+
+// String 0xB8
+// 　オマエたちの　ちからをあつめ[BR]
+// 　きょうりょくなルドラを　うつ[!!]
+So I'll channel[BR]
+your power and[BR]
+launch the strong-[BR]
+est Rudra I can!
+
+#END()
+
+// String 0xB9
+// 　　　　　　ルドラ[!?]
+Rudra?!
+
+#END()
+
+// String 0xBA
+// 　　　　　わすれたのか[!?]
+Don't you remember[BR]
+what happened last[BR]
+time?!
+
+#END()
+
+// String 0xBB
+// きもんの　ときも「それ」をつかい[BR]
+// カラダがくだけて　しまったのを[!!]
+You lost your body[BR]
+when you used it[BR]
+against Kimon!
+
+#END()
+
+// String 0xBC
+// 　　　　　うつけが[!!]
+Silence, you simp-[BR]
+leton!
+
+#END()
+
+// String 0xBD
+// 　　あとのことなどオレさまの[BR]
+// 　　しったことか[!!]
+I don't care about[BR]
+what {might} happ-[BR]
+en after!
+
+#END()
+
+// String 0xBE
+// 　　たしかに　いちかばちかの[BR]
+// 　　カケですが・・・・・・・
+It certainly is a[BR]
+risky gamble. How-[BR]
+ever...
+
+#END()
+
+// String 0xBF
+// 　なにもせずに　まけるわけには[BR]
+// 　いきませんしね
+We cannot simply[BR]
+let it all end[BR]
+without even try-[BR]
+ing.
+
+#END()
+
+// String 0xC0
+// 　　　　　　いま・・・
+Yeah...
+
+#END()
+
+// String 0xC1
+// 　　いまここで　いのちかけて[BR]
+// 　　たたかわなきゃ・・・・・
+When do we put our[BR]
+lives on the line[BR]
+and fight...
+
+#END()
+
+// String 0xC2
+// 　　いつ　いのちかけるのよ[!!]
+...if not right[BR]
+here and now?!
+
+#END()
+
+// String 0xC3
+// 　　　　　　よし[!!]
+Alright then!
+
+#END()
+
+// String 0xC4
+// 　　　　いくぜ　ちあき[!!][BR]
+// 　　　　　　ゴキ[!!]
+Chiaki, Goki![BR]
+Let's do this!!
+
+#END()
+
+// String 0xC5
+// 　　きしんりき　かいほう[!!]
+I'm gonna unleash[BR]
+all of my power!!
+
+#END()
+
+// String 0xC6
+// 　　　　ラジャス　バン[!!]
+    Rajas Vam!
+
+#END()
+
+// String 0xC7
+// 　　きしんりき　かいほう[!!]
+Releasing demon[BR]
+god power!
+
+#END()
+
+// String 0xC8
+// 　　　アカーシャ　バン[!!]
+    Ahasa Vam!
+
+#END()
+
+// String 0xC9
+// 　あたしの　すべてのちからよ[!!][BR]
+// ゼンキの　すべてのちからとなれ[!!]
+This is everything[BR]
+I have! Zenki,[BR]
+take all of my[BR]
+power!
+
+#END()
+
+// String 0xCA
+// 　　　　　いけーッ[!!][BR]
+// 　　　ちょうヴァジュラー[!!]
+       Go![BR]
+Ultimate Vajura!!
+
+#END()
+
+// String 0xCB
+// 　　　　　ばかめ[!!]
+Fools!
+
+#END()
+
+// String 0xCC
+// そのような　じゅつがつうじるか[!!]
+Your pathetic[BR]
+attempt will never[BR]
+work!
+
+#END()
+
+// String 0xCD
+// 　　　デッド　エンド！！！
+It's over!!
+
+#END()
+
+// String 0xCE
+// 　　　　なにいいいッ[!?]
+     WHAAAAT?!
+
+#END()
+
+// String 0xCF
+// 　　　・・・ゼンキ・・・[BR]
+// 　　　・・・ゴキ・・・・
+...Zenki...[BR]
+...Goki...
+
+#END()
+
+// String 0xD0
+// 　　　おッ！　ひょういのみが[BR]
+// 　　　ふかしやがったか[!!]
+Hah! I knew I[BR]
+smelled a seed of[BR]
+possession!
+
+#END()
+
+// String 0xD1
+// ちあき！　きしん　しょうかんだ[!!]
+Chiaki, summon my[BR]
+true form!
+
+#END()
+
+// String 0xD2
+// 　さあ　もういちどいくわよ[!!]
+Alright, let's try[BR]
+again!
+
+
+#END()
+
+// String 0xD3
+// 　　　　いくじなし[!!]
+You coward!!
+
+#END()
+
+// String 0xD4
+// 　　よし　もういちどいくぜ[!!]
+C'mon, let's try[BR]
+again!
+
+#END()
+
+// String 0xD5
+// 　　　　　ふざけるな[!!]
+Quit screwing[BR]
+around!
+
+#END()
+
+// String 0xD6
+// 　　さあ　とっとといくぜ[!!]
+Let's go already!
+
+#END()
+
+// String 0xD7
+// 　　　　この　うつけが[!!]
+You simpleton!!
+
+#END()
+
+// String 0xD8
+// 　マスター　がんばりましょう[!!]
+Let's do our best,[BR]
+Master!
+
+#END()
+
+// String 0xD9
+// 　　　ざんねんです・・・
+What a shame...
+
+#END()
+

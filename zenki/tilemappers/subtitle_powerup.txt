@@ -1,0 +1,20 @@
+#******************************************************************************
+# Intro subtitle tilemap generator script
+#******************************************************************************
+
+[Properties]
+palette=pal/powerup.pal
+dest=out/precmp/powerup_sub.bin
+loadAddr=0x180
+maxTiles=0x40
+
+#******************************************************************************
+# Main layout
+#******************************************************************************
+
+[Tilemap00]
+source=rsrc/subtitles/powerup_sub.png
+dest=out/maps/powerup_sub.bin
+priority=1
+palette=1
+

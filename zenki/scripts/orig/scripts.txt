@@ -1,0 +1,4658 @@
+;==================================
+; Script table
+;==================================
+
+.dw enumScript0
+.dw enumScript1
+.dw enumScript2
+.dw enumScript3
+.dw enumScript4
+.dw enumScript5
+.dw $0000
+.dw $0000
+.dw enumScript8
+.dw enumScript9
+.dw enumScriptA
+.dw enumScriptB
+.dw enumScriptC
+.dw enumScriptD
+.dw enumScriptE
+.dw enumScriptF
+.dw enumScript10
+.dw enumScript11
+.dw enumScript12
+.dw enumScript13
+.dw enumScript14
+.dw enumScript15
+.dw enumScript16
+.dw enumScript17
+.dw enumScript18
+.dw enumScript19
+.dw enumScript1A
+.dw enumScript1B
+.dw $0000
+.dw enumScript1D
+.dw enumScript1E
+.dw enumScript1F
+.dw enumScript20
+.dw enumScript21
+.dw enumScript22
+.dw enumScript23
+.dw enumScript24
+.dw enumScript25
+.dw enumScript26
+.dw enumScript27
+.dw enumScript28
+.dw enumScript29
+.dw enumScript2A
+
+;==================================
+; Data section
+;==================================
+
+.db $06,$01,$62,$80,$06,$02,$73,$80,$06,$00,$84,$80,$80,$7D,$92,$14
+.db $79,$01,$08,$16,$80,$AD,$92,$2A,$79,$01,$08,$16,$FF,$80,$8D,$92
+.db $14,$79,$01,$08,$16,$80,$BD,$92,$2A,$79,$01,$08,$16,$FF,$80,$9D
+.db $92,$14,$79,$01,$08,$16,$80,$CD,$92,$2A,$79,$01,$08,$16,$FF,$01
+.db $01,$9D,$80,$01,$00,$A6,$80,$80,$5C,$BA,$90,$79,$03,$06,$16,$FF
+.db $80,$80,$BA,$90,$79,$03,$06,$16,$FF,$04,$01,$BF,$80,$04,$02,$E0
+.db $80,$04,$03,$E9,$80,$04,$00,$E0,$80,$00,$1D,$AE,$24,$79,$01,$01
+.db $10,$00,$1E,$AE,$58,$79,$01,$02,$10,$00,$20,$AE,$D0,$79,$03,$01
+.db $10,$00,$29,$AE,$9E,$79,$03,$03,$10,$FF,$00,$32,$AE,$9E,$79,$03
+.db $03,$10,$FF,$00,$23,$AE,$24,$79,$01,$01,$10,$00,$24,$AE,$58,$79
+.db $01,$02,$10,$00,$26,$AE,$D0,$79,$03,$01,$10,$00,$3B,$AE,$9E,$79
+.db $03,$03,$10,$FF,$03,$01,$12,$81,$03,$00,$1B,$81,$80,$AA,$87,$5C
+.db $79,$04,$06,$09,$FF,$80,$DA,$87,$5C,$79,$04,$06,$09,$FF,$01,$01
+.db $2C,$81,$01,$00,$35,$81,$10,$AB,$97,$0C,$79,$14,$08,$0E,$FF,$00
+.db $4B,$98,$0C,$79,$14,$08,$0E,$FF,$01,$01,$2C,$81,$01,$00,$4E,$81
+.db $01,$01,$2C,$81,$01,$00,$57,$81,$00,$EB,$98,$0C,$79,$14,$08,$0E
+.db $FF,$00,$8B,$99,$0C,$79,$14,$08,$0E,$FF,$01,$01,$2C,$81,$01,$00
+.db $70,$81,$01,$01,$2C,$81,$01,$00,$79,$81,$00,$2B,$9A,$0C,$79,$14
+.db $08,$0E,$FF,$00,$CB,$9A,$0C,$79,$14,$08,$0E,$FF,$01,$01,$2C,$81
+.db $01,$00,$92,$81,$01,$01,$2C,$81,$01,$00,$9B,$81,$00,$6B,$9B,$0C
+.db $79,$14,$08,$0E,$FF,$00,$0B,$9C,$0C,$79,$14,$08,$0E,$FF,$01,$01
+.db $2C,$81,$01,$00,$B4,$81,$01,$01,$2C,$81,$01,$00,$BD,$81,$00,$AB
+.db $9C,$0C,$79,$14,$08,$0E,$FF,$00,$4B,$9D,$0C,$79,$14,$08,$0E,$FF
+
+;==================================
+; Script 0x141C6
+;==================================
+
+enumScript1:
+
+  writeByte        $C90D,$01
+enumScript8:
+
+  loadPsGraphic    $4000,$92BF,$09
+  loadPsGraphic    $4E00,$9BC1,$09
+  op14             $0100,$0FFF
+  op09             
+  print            $03,$00
+  waitFrames       $5F
+  call             loc_16d21
+  op09             
+  op0E             $00,$68
+  op01             $A21D,$799C,$04,$04,$80,$09
+  op0F             $00,$01,$04
+  op09             
+  op13             $10,$00,$BEA5
+  waitFrames       $0C
+  op13             $10,$00,$BEC5
+  waitFrames       $0C
+  op13             $10,$00,$BEE5
+  waitFrames       $0C
+  op13             $10,$00,$BF05
+  waitFrames       $0C
+  op13             $10,$00,$BF25
+  waitFrames       $0C
+  op13             $10,$00,$BF45
+  waitFrames       $0C
+  op13             $10,$00,$BF65
+  waitFrames       $0C
+  op0F             $00,$00,$00
+  op13             $10,$00,$BF85
+  waitFrames       $0C
+  op13             $10,$00,$BFA5
+  print            $03,$01
+  waitFrames       $40
+  print            $03,$02
+  waitFrames       $70
+  print            $03,$03
+  waitFrames       $46
+  print            $03,$04
+  waitFrames       $76
+  op01             $A23D,$799C,$04,$04,$80,$09
+  waitFrames       $02
+  op01             $A25D,$799C,$04,$04,$80,$09
+  waitFrames       $02
+  op01             $A27D,$799C,$04,$04,$80,$09
+  waitFrames       $02
+  op01             $A29D,$799C,$04,$04,$80,$09
+  waitFrames       $14
+  setLoopCount     $05
+loc_14279:
+  op13             $11,$00,$B937
+  op09             
+  op13             $11,$00,$B957
+  op09             
+  loop             loc_14279
+  call             loc_16d21
+  op09             
+  op11             $02
+  op07             $BE
+  op13             $1C,$00,$82B4
+  call             loc_16d33
+  vramFill         $0070,$79C0,$0020
+  vramFill         $0470,$7A00,$0020
+  call             loc_1497f
+  vramFill         $0000,$79C0,$0020
+  vramFill         $0000,$7A00,$0020
+  call             loc_14992
+  op09             
+  vramFill         $0070,$7980,$0020
+  vramFill         $0470,$7A40,$0020
+  call             loc_1497f
+  vramFill         $0000,$7980,$0020
+  vramFill         $0000,$7A40,$0020
+  call             loc_14992
+  op09             
+  vramFill         $0070,$7940,$0020
+  vramFill         $0470,$7A80,$0020
+  call             loc_1497f
+  vramFill         $0000,$7940,$0020
+  vramFill         $0000,$7A80,$0020
+  call             loc_14992
+  op09             
+  vramFill         $0070,$7900,$0020
+  vramFill         $0470,$7AC0,$0020
+  call             loc_1497f
+  vramFill         $0000,$7900,$0020
+  vramFill         $0000,$7AC0,$0020
+  op01             $9B81,$7934,$08,$08,$00,$09
+  op1F             $0078,$FF00
+  op14             $0101,$0FED
+  op14             $0201,$0200
+  op14             $0501,$0F62
+  op14             $0801,$0015
+  op14             $0901,$0602
+  op14             $0A01,$020F
+  op02             $C91F,$4F,$E8,$C9
+  op03             $C9D2,$C91F,$00,$00,$00,$FF
+  op02             $C947,$5F,$F0,$CB
+  op03             $CBD2,$C947,$00,$00,$00,$FF
+  op14             $0000,$0FD8
+  waitFrames       $13
+  op14             $0000,$0FC9
+  waitFrames       $13
+  op14             $0000,$0FA7
+  waitFrames       $07
+  op20             $C91F,$CA
+  waitFrames       $04
+  op20             $C91F,$C9
+  waitFrames       $08
+  op14             $0000,$0E83
+  waitFrames       $13
+  op14             $0000,$0D42
+  waitFrames       $0B
+  op20             $C91F,$CA
+  waitFrames       $04
+  op20             $C91F,$C9
+  waitFrames       $04
+  op14             $0000,$0C21
+  op20             $C947,$CC
+  print            $03,$05
+  waitFrames       $13
+  writeWord        $C1B8,$FF40
+  op03             $CAD2,$C91F,$00,$00,$40,$FF
+  op03             $CBD2,$C947,$00,$00,$40,$FF
+  waitFrames       $0F
+  op20             $C91F,$CA
+  waitFrames       $04
+  op20             $C947,$CB
+  op20             $C91F,$C9
+  waitFrames       $13
+  writeWord        $C1B8,$FE00
+  op03             $0028,$C91F,$00,$00,$00,$FE
+  op03             $001E,$C947,$00,$00,$00,$FE
+  waitFrames       $18
+  op02             $C91F,$40,$F8,$CE
+  op03             $CE5A,$C91F,$00,$00,$00,$FE
+  waitFrames       $10
+  op13             $11,$00,$B677
+  op0E             $00,$C8
+  vramFill         $0000,$7900,$0100
+  call             loc_16d21
+  op01             $A2BD,$79B4,$07,$06,$80,$09
+  op09             
+  waitFrames       $3C
+  writeWord        $C1B8,$0100
+  op03             $CE24,$C91F,$00,$00,$80,$FF
+  op13             $11,$00,$B697
+  waitFrames       $02
+  op13             $11,$00,$B6B7
+  waitFrames       $02
+  op13             $11,$00,$B697
+  waitFrames       $02
+  op13             $11,$00,$B6D7
+  waitFrames       $02
+  op13             $11,$00,$B6F7
+  waitFrames       $02
+  op13             $11,$00,$B717
+  waitFrames       $02
+  op13             $11,$00,$B737
+  waitFrames       $02
+  op13             $11,$00,$B757
+  waitFrames       $02
+  op13             $11,$00,$B777
+  waitFrames       $02
+  op13             $11,$00,$B797
+  waitFrames       $02
+  op13             $11,$00,$B7B7
+  waitFrames       $02
+  op13             $11,$00,$B7D7
+  waitFrames       $02
+  writeWord        $C1B8,$0000
+  op07             $BE
+  waitFrames       $1E
+  vramFill         $0000,$7900,$0100
+  writeByte        $C91F,$00
+  op09             
+  op0E             $00,$C8
+  writeByte        $C1BF,$00
+  op09             
+  op02             $C91F,$4F,$58,$C9
+  op02             $C947,$5F,$60,$DD
+  op09             
+  call             loc_14fc8
+  op09             
+  print            $03,$06
+  waitFrames       $42
+  writeByte        $C91F,$00
+  writeByte        $C947,$00
+  op09             
+  vramFill         $0000,$7900,$0100
+  op01             $A2BD,$79A2,$07,$06,$80,$09
+  op02             $C91F,$40,$4C,$CE
+  print            $03,$07
+  waitFrames       $4E
+  print            $03,$08
+  waitFrames       $4E
+  writeByte        $C91F,$00
+  op09             
+  vramFill         $0000,$7900,$0100
+  call             loc_16d21
+  call             loc_14fc8
+  op02             $C91F,$4F,$58,$C9
+  op02             $C947,$5F,$60,$CB
+  waitFrames       $10
+  op20             $C91F,$CA
+  waitFrames       $04
+  op20             $C91F,$C9
+  waitFrames       $1E
+  op02             $C91F,$4F,$58,$CF
+  waitFrames       $14
+  print            $03,$09
+  waitFrames       $12
+  op20             $C947,$CC
+  op13             $1C,$01,$8514
+  op02             $C96F,$A0,$54,$CD
+  op03             $CD20,$C96F,$00,$FE,$00,$00
+  waitFrames       $40
+  op1C             $A593,$1C
+  print            $03,$0A
+  waitFrames       $72
+  print            $03,$0B
+  waitFrames       $4B
+  op20             $C947,$CB
+  waitFrames       $1E
+  call             loc_16d21
+  writeByte        $CBA4,$00
+  op13             $11,$00,$B7F7
+  op13             $11,$01,$B897
+  waitFrames       $03
+  op13             $11,$00,$B817
+  op13             $11,$01,$B8B7
+  waitFrames       $03
+  op13             $11,$00,$B837
+  op13             $11,$01,$B8D7
+  waitFrames       $03
+  op13             $11,$00,$B857
+  op13             $11,$01,$B8F7
+  waitFrames       $03
+  op13             $11,$00,$B877
+  op13             $1C,$01,$8C34
+  waitFrames       $03
+  call             loc_1687a
+  call             loc_149b5
+  op14             $0300,$0FEC
+  op09             
+  vramFill         $0000,$7940,$00C0
+  vramFill         $0070,$7900,$0020
+  vramFill         $0470,$7AC0,$0020
+  call             loc_149a2
+  vramFill         $011F,$7900,$0020
+  vramFill         $011F,$7AC0,$0020
+  call             loc_149b5
+  op09             
+  vramFill         $0070,$7940,$0020
+  vramFill         $0470,$7A80,$0020
+  call             loc_149a2
+  vramFill         $011F,$7940,$0020
+  vramFill         $011F,$7A80,$0020
+  call             loc_149b5
+  op09             
+  vramFill         $0070,$7980,$0020
+  vramFill         $0470,$7A40,$0020
+  call             loc_149a2
+  vramFill         $011F,$7980,$0020
+  vramFill         $011F,$7A40,$0020
+  call             loc_149b5
+  op09             
+  vramFill         $0070,$79C0,$0020
+  vramFill         $0470,$7A00,$0020
+  call             loc_149a2
+  vramFill         $011F,$79C0,$0020
+  vramFill         $011F,$7A00,$0020
+  op09             
+  waitFrames       $1E
+  call             loc_14e16
+  print            $03,$0C
+  waitFrames       $51
+  print            $03,$0D
+  waitFrames       $3F
+  print            $03,$0E
+  waitFrames       $4E
+  op20             $C91F,$00
+  writeByte        $C908,$00
+  writeByte        $CBA4,$00
+  op13             $1C,$00,$8394
+  waitFrames       $03
+  op13             $1C,$00,$83B4
+  waitFrames       $03
+  op13             $1C,$00,$8C54
+  call             loc_16d21
+  waitFrames       $14
+  op07             $E1
+  loadPsGraphic    $4000,$91C9,$0E
+  op1E             $8124,$05
+  op13             $11,$00,$B977
+  waitFrames       $03
+  op13             $11,$00,$B997
+  waitFrames       $03
+  op13             $11,$00,$B9B7
+  waitFrames       $03
+  op13             $11,$00,$B9D7
+  waitFrames       $03
+  op13             $11,$00,$B9F7
+  waitFrames       $03
+  op13             $11,$00,$BA17
+  waitFrames       $03
+  op02             $C91F,$48,$70,$D5
+  op01             $98EB,$790C,$14,$08,$00,$0E
+  op14             $0700,$05EF
+  op1E             $813E,$05
+  op09             
+  call             loc_14969
+  writeWord        $CBA9,$8146
+  op09             
+  call             loc_14959
+  op1E             $8160,$05
+  op09             
+  call             loc_14969
+  writeWord        $CBA9,$8168
+  op09             
+  call             loc_14959
+  op1E             $8182,$05
+  op09             
+  call             loc_14969
+  writeWord        $CBA9,$818A
+  op09             
+  call             loc_14959
+  op1E             $81A4,$05
+  op09             
+  call             loc_14969
+  writeWord        $CBA9,$81AC
+  op09             
+  call             loc_14959
+  op09             
+  op1C             $A8A3,$1C
+  op02             $C947,$20,$12,$D6
+  op03             $003A,$C947,$00,$01,$BB,$01
+  op02             $C96F,$60,$01,$D6
+  op03             $003A,$C96F,$00,$00,$00,$02
+  op02             $C997,$A0,$12,$D6
+  op03             $003A,$C997,$00,$FF,$BB,$01
+  op02             $C9BF,$20,$EE,$D6
+  op03             $003A,$C9BF,$00,$01,$45,$FE
+  op02             $C9E7,$60,$FF,$D6
+  op03             $003A,$C9E7,$00,$00,$00,$FE
+  op02             $CA0F,$A0,$EE,$D6
+  op03             $003A,$CA0F,$00,$FF,$45,$FE
+  waitFrames       $12
+  op02             $CA37,$11,$52,$D6
+  op03             $0028,$CA37,$BB,$01,$00,$01
+  op02             $CA5F,$04,$80,$D6
+  op03             $0028,$CA5F,$00,$02,$00,$00
+  op02             $CA87,$11,$AE,$D6
+  op03             $0028,$CA87,$BB,$01,$00,$FF
+  op02             $CAAF,$AF,$52,$D6
+  op03             $0028,$CAAF,$45,$FE,$00,$01
+  op02             $CAD7,$BC,$80,$D6
+  op03             $0028,$CAD7,$00,$FE,$00,$00
+  op02             $CAFF,$AF,$AE,$D6
+  op03             $0028,$CAFF,$45,$FE,$00,$FF
+  waitFrames       $04
+  writeByte        $CBA4,$00
+  op14             $0101,$0FED
+  waitFrames       $03
+  op14             $0101,$00DF
+  op14             $0701,$00DF
+  op14             $0F01,$0134
+  waitFrames       $03
+  op14             $0101,$0FED
+  waitFrames       $03
+  op14             $0101,$00DF
+  op14             $0701,$0FED
+  op14             $0F01,$0169
+  waitFrames       $03
+  op14             $0101,$0FED
+  waitFrames       $03
+  op14             $0101,$00DF
+  op14             $0701,$00DF
+  op14             $0F01,$0169
+  waitFrames       $03
+  op14             $0101,$0FED
+  waitFrames       $03
+  op14             $0101,$00DF
+  op14             $0701,$0FED
+  op14             $0F01,$019D
+  waitFrames       $03
+  op14             $0101,$0FED
+  waitFrames       $03
+  op14             $0101,$00DF
+  op14             $0701,$00DF
+  op14             $0F01,$01FF
+  waitFrames       $03
+  op14             $0101,$0FED
+  waitFrames       $03
+  op14             $0101,$00DF
+  op14             $0701,$0FED
+  op14             $0F01,$0AFF
+  waitFrames       $03
+  op02             $C947,$72,$3A,$D7
+  op03             $0050,$C947,$00,$FE,$00,$00
+  op02             $C96F,$94,$40,$D8
+  op03             $0050,$C96F,$00,$FE,$00,$00
+  op02             $C997,$80,$44,$D8
+  op03             $0050,$C997,$00,$FE,$00,$00
+  op02             $C9BF,$78,$48,$D7
+  op03             $0050,$C9BF,$00,$FE,$00,$00
+  op02             $C9E7,$86,$54,$D7
+  op03             $0050,$C9E7,$00,$FE,$00,$00
+  op02             $CA0F,$8E,$60,$D7
+  op03             $0050,$CA0F,$00,$FE,$00,$00
+  op02             $CA37,$70,$98,$D7
+  op03             $0050,$CA37,$00,$FE,$00,$00
+  op02             $CA5F,$8C,$A0,$D8
+  op03             $0050,$CA5F,$00,$FE,$00,$00
+  op02             $CA87,$7C,$AE,$D7
+  op03             $0050,$CA87,$00,$FE,$00,$00
+  op02             $CAAF,$94,$BC,$D7
+  op03             $0050,$CAAF,$00,$FE,$00,$00
+  op02             $CAD7,$78,$C6,$D8
+  op03             $0050,$CAD7,$00,$FE,$00,$00
+  waitFrames       $0A
+  op13             $1C,$00,$83D4
+  waitFrames       $03
+  op13             $1C,$00,$83F4
+  waitFrames       $03
+  op13             $1C,$00,$8414
+  waitFrames       $03
+  writeByte        $CBA7,$00
+  op13             $1C,$00,$8434
+  waitFrames       $03
+  op13             $1C,$00,$8454
+  waitFrames       $03
+  op13             $1C,$00,$8474
+  waitFrames       $03
+  op13             $1C,$00,$8C54
+  waitFrames       $03
+  op07             $BF
+  op14             $0101,$0FED
+  op14             $0701,$00DF
+  waitFrames       $05
+  op14             $0101,$00DF
+  op14             $0701,$0FED
+  waitFrames       $05
+  op13             $11,$01,$BA37
+  waitFrames       $05
+  op13             $11,$01,$BA57
+  waitFrames       $05
+  op13             $11,$01,$BA77
+  waitFrames       $05
+  op13             $11,$01,$BA97
+  waitFrames       $05
+  op13             $11,$01,$BAB7
+  waitFrames       $05
+  terminate        
+
+; end: 0x14959
+
+;==================================
+; Script 0x14959
+;==================================
+
+loc_14959:
+  op14             $0800,$0200
+  op14             $0900,$0200
+  op14             $0A00,$0200
+  ret              
+
+; end: 0x14969
+
+;==================================
+; Script 0x14969
+;==================================
+
+loc_14969:
+  op14             $0800,$05EF
+  op09             
+  op09             
+  op14             $0900,$05EF
+  op09             
+  op09             
+  op14             $0A00,$05EF
+  op09             
+  op09             
+  ret              
+
+; end: 0x1497F
+
+;==================================
+; Script 0x1497F
+;==================================
+
+loc_1497f:
+  op14             $0800,$0FEC
+  op09             
+  op14             $0A00,$0FEC
+  op09             
+  op14             $0D00,$0FEC
+  op09             
+  ret              
+
+; end: 0x14992
+
+;==================================
+; Script 0x14992
+;==================================
+
+loc_14992:
+  op14             $0800,$0000
+  op14             $0A00,$0000
+  op14             $0D00,$0000
+  ret              
+
+; end: 0x149A2
+
+;==================================
+; Script 0x149A2
+;==================================
+
+loc_149a2:
+  op14             $0D00,$0000
+  op09             
+  op14             $0A00,$0000
+  op09             
+  op14             $0800,$0000
+  op09             
+  ret              
+
+; end: 0x149B5
+
+;==================================
+; Script 0x149B5
+;==================================
+
+loc_149b5:
+  op14             $0800,$0FEC
+  op14             $0A00,$0FEC
+  op14             $0D00,$0FEC
+  ret              
+
+; end: 0x149C5
+
+;==================================
+; Script 0x149C5
+;==================================
+
+enumScript1B:
+
+  loadPsGraphic    $6000,$8000,$09
+  loadPsGraphic    $66C0,$880A,$09
+  loadPsGraphic    $4400,$8FAD,$09
+  loadPsGraphic    $4720,$9116,$09
+  op01             $84DA,$780C,$14,$12,$80,$09
+  op02             $C91F,$60,$80,$B8
+  waitFrames       $1E
+  call             loc_14e4b
+  op1B             $10,$00
+  waitFrames       $14
+  op1E             $810A,$05
+  op13             $1C,$00,$81B4
+  waitFrames       $05
+  op14             $0A00,$0100
+  op14             $0B00,$0420
+  op14             $0D00,$0003
+  op14             $0E00,$0316
+  waitFrames       $05
+  op13             $1C,$00,$81D4
+  waitFrames       $05
+  op14             $0A00,$0710
+  op14             $0B00,$0A50
+  op14             $0D00,$0309
+  op14             $0E00,$084C
+  waitFrames       $05
+  op13             $1C,$00,$81F4
+  waitFrames       $05
+  op14             $0A00,$0B20
+  op14             $0B00,$0DA3
+  op14             $0D00,$061C
+  op14             $0E00,$0A8D
+  waitFrames       $05
+  op13             $1C,$00,$8CD4
+  op1C             $A84E,$1C
+  op09             
+  op02             $C947,$20,$12,$B9
+  op03             $0040,$C947,$00,$01,$BB,$01
+  op02             $C96F,$60,$01,$B9
+  op03             $0040,$C96F,$00,$00,$00,$02
+  op02             $C997,$A0,$12,$B9
+  op03             $0040,$C997,$00,$FF,$BB,$01
+  op02             $C9BF,$20,$EE,$B9
+  op03             $0040,$C9BF,$00,$01,$45,$FE
+  op02             $C9E7,$60,$FF,$B9
+  op03             $0040,$C9E7,$00,$00,$00,$FE
+  op02             $CA0F,$A0,$EE,$B9
+  op03             $0040,$CA0F,$00,$FF,$45,$FE
+  waitFrames       $12
+  op02             $CA37,$11,$52,$B9
+  op03             $002E,$CA37,$BB,$01,$00,$01
+  op02             $CA5F,$04,$80,$B9
+  op03             $002E,$CA5F,$00,$02,$00,$00
+  op02             $CA87,$11,$AE,$B9
+  op03             $002E,$CA87,$BB,$01,$00,$FF
+  op02             $CAAF,$AF,$52,$B9
+  op03             $002E,$CAAF,$45,$FE,$00,$01
+  op02             $CAD7,$BC,$80,$B9
+  op03             $002E,$CAD7,$00,$FE,$00,$00
+  op02             $CAFF,$AF,$AE,$B9
+  op03             $002E,$CAFF,$45,$FE,$00,$FF
+  waitFrames       $28
+  writeByte        $C908,$00
+  writeByte        $CBA4,$00
+  op13             $1C,$00,$8214
+  waitFrames       $04
+  op14             $0200,$00FF
+  op14             $0A00,$0F50
+  op14             $0B00,$0FC8
+  op14             $0D00,$0B6F
+  op14             $0E00,$0CCF
+  waitFrames       $04
+  op13             $1C,$01,$8D94
+  op13             $1C,$00,$8234
+  waitFrames       $04
+  op14             $0200,$06FF
+  op14             $0A00,$0F97
+  op14             $0B00,$0FEC
+  op14             $0D00,$0C9F
+  op14             $0E00,$0EEF
+  waitFrames       $04
+  op13             $1C,$00,$8254
+  waitFrames       $04
+  op14             $0200,$0AFF
+  op14             $0A00,$0FCB
+  op14             $0B00,$0FFF
+  op14             $0D00,$0ECF
+  op14             $0E00,$0FFF
+  waitFrames       $04
+  op13             $1C,$00,$8C34
+  writeByte        $CBA7,$00
+  waitFrames       $14
+  op08             $E0
+  op14             $0F00,$0FFF
+  op01             $8CDD,$780C,$14,$12,$80,$09
+  op02             $C91F,$A0,$80,$BA
+  op03             $BA28,$C91F,$00,$FE,$00,$00
+  op14             $0101,$0FFF
+  op14             $0201,$0FFF
+  op14             $0301,$0FFF
+  op14             $0401,$0FFF
+  waitFrames       $08
+  op14             $0101,$0CCC
+  op14             $0201,$0CCC
+  op14             $0301,$0CCC
+  op14             $0401,$0CCC
+  waitFrames       $08
+  op14             $0101,$0999
+  op14             $0201,$0999
+  op14             $0301,$0999
+  op14             $0401,$0999
+  waitFrames       $08
+  op14             $0101,$0666
+  op14             $0201,$0666
+  op14             $0301,$0666
+  op14             $0401,$0666
+  waitFrames       $08
+  op14             $0101,$0333
+  op14             $0201,$0333
+  op14             $0301,$0333
+  op14             $0401,$0333
+  waitFrames       $08
+  op14             $0101,$0222
+  op14             $0201,$0222
+  op14             $0301,$0222
+  op14             $0401,$0222
+  waitFrames       $08
+  op14             $0101,$0000
+  op14             $0201,$0000
+  op14             $0301,$0000
+  op14             $0401,$0000
+  waitFrames       $08
+  op07             $B7
+  op14             $0200,$0CEF
+  op14             $0300,$0ABC
+  op14             $0400,$020F
+  op14             $0500,$00FF
+  waitFrames       $04
+  op14             $0200,$0ABC
+  op14             $0300,$0678
+  waitFrames       $04
+  op14             $0200,$0567
+  op14             $0300,$0012
+  waitFrames       $04
+  op14             $0200,$0012
+  waitFrames       $03
+  op1C             $A8B7,$1C
+  op02             $C947,$A0,$40,$BB
+  op03             $0014,$C947,$00,$F6,$00,$00
+  waitFrames       $06
+  op02             $C96F,$D0,$AA,$BC
+  op03             $0018,$C96F,$00,$F6,$00,$00
+  op1C             $A8CB,$1C
+  waitFrames       $10
+  op02             $C997,$A0,$5A,$BB
+  op03             $0014,$C997,$00,$F6,$00,$00
+  waitFrames       $06
+  op02             $C9BF,$C0,$C8,$BC
+  op03             $0018,$C9BF,$00,$F6,$00,$00
+  waitFrames       $06
+  op14             $0201,$0FF0
+  waitFrames       $04
+  op14             $0301,$0FF0
+  waitFrames       $04
+  op14             $0401,$0FF0
+  waitFrames       $04
+  op14             $0101,$0222
+  waitFrames       $04
+  op14             $0101,$0333
+  waitFrames       $04
+  op14             $0101,$0666
+  waitFrames       $04
+  op14             $0101,$0999
+  waitFrames       $04
+  op14             $0101,$0CCC
+  waitFrames       $04
+  op14             $0101,$0FFF
+  op14             $0201,$0FFF
+  op14             $0301,$0FFF
+  op14             $0401,$0FFF
+  waitFrames       $04
+  writeByte        $CBA4,$00
+  op02             $C91F,$50,$80,$BD
+  op03             $0018,$C91F,$00,$FB,$00,$00
+  op02             $C947,$58,$88,$BE
+  op03             $001C,$C947,$AC,$FB,$50,$02
+  op02             $C96F,$60,$88,$BF
+  op03             $001C,$C96F,$B0,$FD,$54,$04
+  op02             $C997,$68,$80,$C0
+  op03             $001C,$C997,$00,$00,$00,$05
+  op02             $C9BF,$70,$88,$C1
+  op03             $001C,$C9BF,$50,$02,$54,$04
+  op02             $C9E7,$70,$80,$C2
+  op03             $001C,$C9E7,$54,$04,$50,$02
+  op02             $CA0F,$80,$80,$C3
+  op03             $0018,$CA0F,$00,$05,$00,$00
+  op02             $CA37,$78,$70,$C4
+  op03             $001C,$CA37,$54,$04,$B0,$FD
+  op02             $CA5F,$70,$70,$C5
+  op03             $001C,$CA5F,$50,$02,$AC,$FB
+  op02             $CA87,$68,$70,$C6
+  op03             $001C,$CA87,$00,$00,$00,$FB
+  op02             $CAAF,$60,$70,$C7
+  op03             $0018,$CAAF,$B0,$FD,$AC,$FB
+  op02             $CAD7,$60,$78,$C8
+  op03             $0018,$CAD7,$AC,$FB,$B0,$FD
+  op07             $BF
+  waitFrames       $04
+  op13             $1C,$00,$8274
+  waitFrames       $09
+  op13             $1C,$00,$8294
+  waitFrames       $09
+  op14             $0200,$0ABC
+  op14             $0300,$0678
+  waitFrames       $09
+  op14             $0200,$0CEF
+  op14             $0300,$0ABC
+  waitFrames       $09
+  op14             $0200,$0FFF
+  op14             $0300,$0FFF
+  op14             $0400,$0FFF
+  op14             $0500,$0FFF
+  waitFrames       $09
+  waitFrames       $14
+  terminate        
+
+; end: 0x14E16
+
+;==================================
+; Script 0x14E16
+;==================================
+
+loc_14e16:
+  loadPsGraphic    $4400,$8FAD,$09
+  loadPsGraphic    $4800,$A311,$09
+  op02             $C91F,$58,$80,$B8
+  call             loc_14e4b
+  op08             $C0
+  op1B             $10,$00
+  op13             $1C,$00,$8BF4
+  op09             
+  op01             $A767,$790C,$14,$08,$80,$09
+  op13             $1C,$00,$8374
+  op10             $01
+  op1C             $A80A,$1C
+  ret              
+
+; end: 0x14E4B
+
+;==================================
+; Script 0x14E4B
+;==================================
+
+loc_14e4b:
+  op07             $C0
+  op13             $11,$01,$BAD7
+  waitFrames       $03
+  op13             $11,$01,$BAE7
+  waitFrames       $03
+  op13             $11,$01,$BAF7
+  waitFrames       $03
+  op13             $11,$01,$BB07
+  waitFrames       $03
+  op13             $11,$01,$BB17
+  waitFrames       $03
+  op13             $1C,$01,$8BF4
+  waitFrames       $14
+  op1C             $A81A,$1C
+  ret              
+
+; end: 0x14E7C
+
+;==================================
+; Script 0x14E7C
+;==================================
+
+enumScript9:
+
+  op21             
+  loadPsGraphic    $4000,$92BF,$09
+  loadPsGraphic    $4E00,$8160,$0E
+  loadPsGraphic    $5BA0,$8AE2,$0E
+  loadPsGraphic    $60C0,$8E47,$0E
+  op02             $C91F,$3F,$80,$D0
+  op09             
+  call             loc_16d29
+  op08             $8F
+  op13             $1C,$00,$82F4
+  op13             $1C,$01,$82D4
+  op15             $02
+  waitFrames       $14
+  print            $03,$0F
+  waitFrames       $7A
+  op02             $C91F,$4F,$58,$D4
+  call             loc_14faf
+  print            $03,$10
+  waitFrames       $3F
+  op20             $C91F,$00
+  vramFill         $0000,$7900,$0100
+  op13             $1C,$00,$82F4
+  op09             
+  call             loc_16d29
+  op13             $1C,$01,$82D4
+  op02             $C91F,$3F,$80,$D0
+  waitFrames       $14
+  print            $03,$11
+  waitFrames       $6E
+  print            $03,$12
+  waitFrames       $1E
+  op20             $C91F,$D1
+  waitFrames       $20
+  print            $03,$13
+  op09             
+  op1F             $0078,$FF00
+  call             loc_14fd2
+  print            $03,$14
+  waitFrames       $50
+  op02             $C91F,$4F,$58,$C9
+  op02             $C947,$5F,$60,$CC
+  call             loc_14faf
+  print            $03,$15
+  waitFrames       $38
+  call             loc_16873
+  op13             $1C,$00,$82F4
+  op13             $1C,$01,$82D4
+  op09             
+  writeByte        $C1BF,$01
+  call             loc_16d29
+  op02             $C91F,$3F,$98,$D3
+  print            $03,$16
+  waitFrames       $5C
+  call             loc_14ffe
+  print            $03,$17
+  waitFrames       $7A
+  print            $03,$18
+  call             loc_14fd2
+  print            $03,$19
+  waitFrames       $7A
+  print            $03,$1A
+  waitFrames       $68
+  op02             $C91F,$4F,$58,$DE
+  op02             $C947,$5F,$60,$DC
+  call             loc_14faf
+  print            $03,$1B
+  waitFrames       $5C
+  print            $03,$1C
+  waitFrames       $62
+  call             loc_16873
+  op13             $1C,$00,$82F4
+  op13             $1C,$01,$82D4
+  op09             
+  call             loc_16d29
+  op02             $C91F,$3F,$80,$D2
+  waitFrames       $14
+  print            $03,$1D
+  waitFrames       $68
+  op1F             $0078,$FF00
+  call             loc_14fd2
+  print            $03,$1E
+  waitFrames       $7A
+  waitFrames       $1E
+  op11             $03
+  terminate        
+
+; end: 0x14F99
+
+;==================================
+; Script 0x14F99
+;==================================
+
+loc_14f99:
+  op13             $11,$00,$B7D7
+  op14             $0000,$0821
+  call             loc_16864
+  jump             loc_14fc2
+
+; end: 0x14FA9
+
+;==================================
+; Script 0x14FA9
+;==================================
+
+loc_14fa9:
+  call             loc_16873
+  jump             loc_14fc2
+
+; end: 0x14FAF
+
+;==================================
+; Script 0x14FAF
+;==================================
+
+loc_14faf:
+  op0E             $00,$C8
+  writeByte        $C1BF,$00
+  vramFill         $0000,$7900,$0100
+  op13             $11,$00,$B7D7
+loc_14fc2:
+  op13             $1C,$01,$8C74
+  op09             
+loc_14fc8:
+  op01             $9B81,$7910,$08,$08,$00,$09
+  ret              
+
+; end: 0x14FD2
+
+;==================================
+; Script 0x14FD2
+;==================================
+
+loc_14fd2:
+  writeByte        $C1BF,$01
+  writeWord        $C1B8,$FF00
+  op03             $004C,$C91F,$00,$00,$00,$FE
+  op09             
+  waitFrames       $4C
+  op02             $C91F,$3F,$E8,$D3
+  op03             $D328,$C91F,$00,$00,$00,$FE
+  waitFrames       $28
+  writeWord        $C1B8,$0000
+  ret              
+
+; end: 0x14FFE
+
+;==================================
+; Script 0x14FFE
+;==================================
+
+loc_14ffe:
+  writeByte        $C1BF,$01
+  writeWord        $C1B8,$0100
+  op03             $0028,$C91F,$00,$00,$00,$02
+  op09             
+  waitFrames       $40
+  op02             $C91F,$3F,$18,$D1
+  op03             $D134,$C91F,$00,$00,$00,$02
+  waitFrames       $34
+  writeWord        $C1B8,$0000
+  ret              
+
+; end: 0x1502A
+
+;==================================
+; Script 0x1502A
+;==================================
+
+enumScriptA:
+
+  loadPsGraphic    $4000,$92BF,$09
+  loadPsGraphic    $4E00,$9DEB,$0E
+  loadPsGraphic    $56C0,$A602,$0E
+  loadPsGraphic    $60C0,$8E47,$0E
+  op01             $A4C2,$790C,$14,$08,$80,$0E
+  op08             $8D
+  op13             $1C,$00,$82F4
+  op13             $11,$01,$B917
+  waitFrames       $14
+  print            $03,$1F
+  waitFrames       $38
+  op02             $C91F,$00,$80,$D9
+  op03             $D92C,$C91F,$00,$02,$00,$00
+  waitFrames       $2C
+  op03             $0210,$C91F,$40,$00,$00,$00
+  print            $03,$20
+  waitFrames       $7A
+  op02             $C91F,$4F,$58,$C9
+  op02             $C947,$5F,$60,$CC
+  call             loc_14faf
+  print            $03,$21
+  waitFrames       $44
+  op20             $C91F,$CA
+  waitFrames       $04
+  op20             $C91F,$C9
+  op20             $C947,$CB
+  waitFrames       $30
+  call             loc_1687a
+  op13             $1C,$00,$82F4
+  op13             $11,$01,$B917
+  op09             
+  op01             $A4C2,$790C,$14,$08,$80,$0E
+  op02             $C91F,$58,$80,$D9
+  op03             $0210,$C91F,$40,$00,$00,$00
+  print            $03,$22
+  waitFrames       $50
+  print            $03,$23
+  waitFrames       $6B
+  print            $03,$24
+  waitFrames       $4D
+  print            $03,$25
+  waitFrames       $41
+  op02             $C91F,$4F,$58,$DA
+  op02             $C947,$5F,$60,$CC
+  call             loc_14faf
+  print            $03,$26
+  waitFrames       $44
+  print            $03,$27
+  waitFrames       $68
+  call             loc_1687a
+  op13             $1C,$00,$A1A4
+  op09             
+  op01             $A382,$790C,$14,$08,$80,$0E
+  op1C             $A36A,$1C
+  print            $03,$28
+  waitFrames       $3E
+  print            $03,$29
+  waitFrames       $65
+  terminate        
+
+; end: 0x15115
+
+;==================================
+; Script 0x15115
+;==================================
+
+enumScriptB:
+
+  op21             
+  loadPsGraphic    $4000,$92BF,$09
+  loadPsGraphic    $4E00,$8160,$0E
+  loadPsGraphic    $5A80,$A89E,$0E
+  loadPsGraphic    $60C0,$8E47,$0E
+  op08             $8F
+  vramFill         $0000,$7900,$0100
+  call             loc_14fc8
+  op02             $C91F,$4F,$58,$D4
+  op02             $C96F,$60,$54,$CD
+  op13             $11,$00,$B7D7
+  op13             $1C,$01,$8514
+  waitFrames       $14
+  print            $03,$2A
+  waitFrames       $54
+  print            $03,$2B
+  waitFrames       $72
+  op03             $0020,$C96F,$00,$04,$00,$00
+  print            $03,$2C
+  waitFrames       $0C
+  op02             $C91F,$4F,$58,$7E
+  op02             $C947,$5F,$5F,$CB
+  waitFrames       $04
+  op02             $C91F,$4F,$58,$DE
+  waitFrames       $2A
+  call             loc_16873
+  op09             
+  op1F             $0078,$0000
+  writeWord        $C1BA,$8900
+  op13             $1C,$00,$82F4
+  op13             $1C,$01,$8594
+  op09             
+  call             loc_16d29
+  op02             $C91F,$3F,$98,$DF
+  op09             
+  waitFrames       $14
+  print            $03,$2D
+  waitFrames       $84
+  print            $03,$2E
+  waitFrames       $4E
+  call             loc_14ffe
+  print            $03,$2F
+  waitFrames       $84
+  writeByte        $C1BF,$01
+  writeWord        $C1B8,$FF00
+  op03             $004C,$C91F,$00,$00,$00,$FE
+  op09             
+  waitFrames       $4C
+  op02             $C91F,$3F,$E8,$DF
+  op03             $DF28,$C91F,$00,$00,$00,$FE
+  waitFrames       $28
+  writeWord        $C1B8,$0000
+  print            $03,$30
+  waitFrames       $4E
+  call             loc_16d21
+  vramFill         $0000,$7900,$0100
+  op0E             $00,$C8
+  writeByte        $C1BF,$00
+  op20             $C91F,$00
+  op09             
+  call             loc_14fc8
+  op02             $C91F,$4F,$58,$DA
+  op02             $C947,$5F,$60,$CC
+  op13             $11,$00,$B7D7
+  op13             $1C,$01,$8514
+  op09             
+  print            $03,$31
+  waitFrames       $54
+  op11             $02
+  terminate        
+
+; end: 0x1521F
+
+;==================================
+; Script 0x1521F
+;==================================
+
+enumScriptC:
+
+  loadPsGraphic    $4000,$92BF,$09
+  loadPsGraphic    $4E00,$AC9A,$0E
+  op01             $B44A,$790C,$14,$08,$80,$0E
+  op08             $8E
+  op14             $0100,$0111
+  waitFrames       $04
+  op14             $0100,$0222
+  waitFrames       $04
+  op14             $0100,$0333
+  waitFrames       $04
+  op07             $BD
+  op14             $0100,$0444
+  waitFrames       $04
+  op14             $0100,$0555
+  waitFrames       $04
+  op14             $0100,$0666
+  waitFrames       $04
+  op14             $0100,$0777
+  waitFrames       $04
+  op14             $0100,$0888
+  waitFrames       $04
+  op14             $0100,$0999
+  waitFrames       $04
+  op14             $0100,$0AAA
+  waitFrames       $04
+  op14             $0100,$0BBB
+  waitFrames       $04
+  op14             $0100,$0CCC
+  waitFrames       $04
+  op14             $0100,$0DDD
+  waitFrames       $04
+  op14             $0100,$0EEE
+  waitFrames       $04
+  op14             $0100,$0FFF
+  waitFrames       $04
+  print            $03,$32
+  call             loc_1537a
+  waitFrames       $28
+  print            $03,$33
+  waitFrames       $28
+  call             loc_1537a
+  print            $03,$34
+  waitFrames       $50
+  call             loc_1537a
+  print            $03,$35
+  waitFrames       $32
+  print            $03,$36
+  waitFrames       $1E
+  op1B             $01,$03
+  op01             $B58A,$790C,$14,$08,$80,$0E
+  op14             $0000,$0FFF
+  waitFrames       $06
+  op14             $0300,$0100
+  op14             $0A00,$0CFF
+  op14             $0E00,$0100
+  waitFrames       $06
+  op14             $0300,$0200
+  op14             $0500,$0100
+  op14             $0E00,$0200
+  waitFrames       $06
+  op13             $1C,$00,$8634
+  waitFrames       $06
+  op13             $1C,$00,$8654
+  waitFrames       $06
+  op13             $1C,$00,$8674
+  waitFrames       $06
+  op13             $1C,$00,$8694
+  waitFrames       $06
+  op13             $1C,$00,$86B4
+  waitFrames       $06
+  op13             $1C,$00,$86D4
+  waitFrames       $06
+  op13             $1C,$00,$86F4
+  waitFrames       $06
+  op13             $1C,$00,$8714
+  waitFrames       $06
+  op13             $1C,$00,$8734
+  print            $03,$37
+  waitFrames       $50
+  writeByte        $C908,$00
+  op13             $1C,$00,$8754
+  op13             $1C,$01,$87D4
+  vramFill         $0000,$7900,$0100
+  call             loc_16d21
+  op09             
+  call             loc_14fc8
+  op02             $C91F,$4F,$58,$DA
+  op02             $C947,$5F,$60,$CC
+  op02             $C96F,$60,$54,$CD
+  op1C             $A593,$1C
+  print            $03,$38
+  waitFrames       $30
+  op02             $C947,$5F,$5F,$CB
+  waitFrames       $3C
+  terminate        
+
+; end: 0x1537A
+
+;==================================
+; Script 0x1537A
+;==================================
+
+loc_1537a:
+  op07             $BD
+  setLoopCount     $03
+loc_1537e:
+  op13             $1C,$00,$85D4
+  waitFrames       $02
+  op13             $1C,$00,$85B4
+  waitFrames       $02
+  loop             loc_1537e
+  setLoopCount     $05
+loc_15391:
+  op13             $1C,$00,$85F4
+  waitFrames       $02
+  op13             $1C,$00,$8614
+  waitFrames       $02
+  loop             loc_15391
+  op13             $1C,$00,$85B4
+  ret              
+
+; end: 0x153A8
+
+;==================================
+; Script 0x153A8
+;==================================
+
+enumScriptD:
+
+  op21             
+  loadPsGraphic    $4000,$92BF,$09
+  loadPsGraphic    $4E00,$8160,$0E
+  loadPsGraphic    $5BA0,$8AE2,$0E
+  loadPsGraphic    $6000,$A8A7,$09
+  op08             $8F
+  op01             $AA4E,$7900,$28,$08,$80,$09
+  op1F             $0078,$0000
+  writeWord        $C1BA,$8900
+  op13             $1C,$00,$9CD4
+  op13             $1C,$01,$8594
+  op02             $C91F,$3F,$98,$D3
+  print            $03,$39
+  waitFrames       $5F
+  call             loc_16d21
+  call             loc_14ffe
+  print            $03,$3A
+  waitFrames       $65
+  call             loc_16873
+  op0E             $00,$C8
+  writeByte        $C1BF,$00
+  op13             $11,$00,$B7D7
+  op14             $0000,$0124
+  op13             $1C,$01,$87D4
+  loadPsGraphic    $4000,$B06E,$17
+  op09             
+  call             loc_14fc8
+  op02             $C91F,$4F,$58,$DE
+  op02             $C947,$5F,$60,$EA
+  op02             $C96F,$60,$54,$CD
+  print            $03,$3B
+  waitFrames       $55
+  call             loc_16873
+  op13             $1C,$00,$9CD4
+  op13             $1C,$01,$82D4
+  op09             
+  op01             $AA4E,$7900,$28,$08,$80,$09
+  op02             $C91F,$3F,$80,$D2
+  op09             
+  loadPsGraphic    $4200,$ACCE,$09
+  print            $03,$3C
+  waitFrames       $5A
+  call             loc_1687a
+  op09             
+  op13             $1C,$01,$9CF4
+  op02             $C91F,$50,$48,$F9
+  op03             $F908,$C91F,$00,$FF,$00,$00
+  op07             $B5
+  print            $03,$3D
+  waitFrames       $08
+  op02             $C947,$50,$78,$FA
+  op02             $C96F,$74,$7C,$FB
+  op03             $FB06,$C96F,$00,$FA,$60,$00
+  waitFrames       $06
+  op20             $C947,$00
+  op1F             $0078,$FF00
+  op03             $0060,$C91F,$00,$00,$00,$FE
+  op03             $FB03,$C96F,$00,$FC,$00,$01
+  waitFrames       $03
+  op03             $FB03,$C96F,$00,$FC,$C0,$01
+  waitFrames       $03
+  op03             $FB03,$C96F,$00,$FC,$30,$03
+  waitFrames       $03
+  op03             $FB03,$C96F,$D0,$FC,$00,$04
+  waitFrames       $03
+  op03             $0006,$C96F,$40,$FE,$00,$04
+  waitFrames       $06
+  waitFrames       $08
+  op13             $1C,$01,$8594
+  op03             $004C,$C91F,$00,$00,$00,$FE
+  op02             $C91F,$3F,$E8,$D3
+  op03             $D328,$C91F,$00,$00,$00,$FE
+  waitFrames       $14
+  call             loc_16d21
+  waitFrames       $14
+  writeWord        $C1B8,$0000
+  print            $03,$3E
+  waitFrames       $5C
+  op11             $02
+  terminate        
+
+; end: 0x1550B
+
+;==================================
+; Script 0x1550B
+;==================================
+
+enumScriptE:
+
+  loadPsGraphic    $4000,$A34F,$10
+  loadPsGraphic    $4E00,$8160,$0E
+  op01             $ACDD,$790C,$14,$08,$00,$10
+  op08             $8D
+  op13             $1C,$00,$8854
+  op13             $1C,$01,$82D4
+  op1E             $80AF,$05
+  op1C             $A39C,$1C
+  print            $03,$3F
+  waitFrames       $81
+  print            $03,$40
+  waitFrames       $7E
+  print            $03,$41
+  waitFrames       $6C
+  writeByte        $CBA7,$00
+  writeByte        $CBA4,$00
+  op01             $AD7D,$790C,$14,$08,$00,$10
+  op02             $C91F,$3F,$80,$D2
+  call             loc_16d21
+  op09             
+  print            $03,$42
+  waitFrames       $3E
+  print            $03,$43
+  waitFrames       $47
+  op11             $01
+  terminate        
+
+; end: 0x1556B
+
+;==================================
+; Script 0x1556B
+;==================================
+
+enumScriptF:
+
+  loadPsGraphic    $4000,$A34F,$10
+  op01             $ACDD,$790C,$14,$08,$00,$10
+  op13             $1C,$00,$8854
+  op1C             $A39C,$1C
+  op1E             $80AF,$05
+  print            $03,$44
+  waitFrames       $71
+  print            $03,$45
+  waitFrames       $41
+  terminate        
+
+; end: 0x15592
+
+;==================================
+; Script 0x15592
+;==================================
+
+enumScript1D:
+
+  call             loc_15671
+  op01             $BF19,$79D8,$07,$02,$00,$0E
+  jump             loc_15661
+
+; end: 0x155A1
+
+;==================================
+; Script 0x155A1
+;==================================
+
+enumScript1E:
+
+  call             loc_15671
+  op01             $BF27,$79DA,$06,$02,$00,$0E
+  jump             loc_15661
+
+; end: 0x155B0
+
+;==================================
+; Script 0x155B0
+;==================================
+
+enumScript1F:
+
+  call             loc_15671
+  op01             $BF33,$79D8,$07,$02,$00,$0E
+  jump             loc_15661
+
+; end: 0x155BF
+
+;==================================
+; Script 0x155BF
+;==================================
+
+enumScript20:
+
+  call             loc_15671
+  op01             $BF41,$79DA,$06,$02,$00,$0E
+  jump             loc_15661
+
+; end: 0x155CE
+
+;==================================
+; Script 0x155CE
+;==================================
+
+enumScript21:
+
+  call             loc_15671
+  op01             $BF4D,$79D8,$07,$02,$00,$0E
+  jump             loc_15661
+
+; end: 0x155DD
+
+;==================================
+; Script 0x155DD
+;==================================
+
+enumScript22:
+
+  call             loc_15671
+  op01             $BF5B,$79D8,$07,$02,$00,$0E
+  jump             loc_15661
+
+; end: 0x155EC
+
+;==================================
+; Script 0x155EC
+;==================================
+
+enumScript23:
+
+  call             loc_15671
+  op01             $BF69,$79D8,$07,$02,$00,$0E
+  jump             loc_15661
+
+; end: 0x155FB
+
+;==================================
+; Script 0x155FB
+;==================================
+
+enumScript24:
+
+  call             loc_15671
+  op01             $BF77,$79DA,$06,$02,$00,$0E
+  jump             loc_15661
+
+; end: 0x1560A
+
+;==================================
+; Script 0x1560A
+;==================================
+
+enumScript25:
+
+  call             loc_15671
+  op01             $BF83,$79D8,$07,$02,$00,$0E
+  jump             loc_15661
+
+; end: 0x15619
+
+;==================================
+; Script 0x15619
+;==================================
+
+enumScript26:
+
+  call             loc_15671
+  op01             $BF91,$79DA,$05,$02,$00,$0E
+  jump             loc_15661
+
+; end: 0x15628
+
+;==================================
+; Script 0x15628
+;==================================
+
+enumScript27:
+
+  call             loc_15671
+  op01             $BF9B,$79DA,$06,$02,$00,$0E
+  jump             loc_15661
+
+; end: 0x15637
+
+;==================================
+; Script 0x15637
+;==================================
+
+enumScript28:
+
+  call             loc_15671
+  op01             $BFA7,$79DA,$06,$02,$00,$0E
+  jump             loc_15661
+
+; end: 0x15646
+
+;==================================
+; Script 0x15646
+;==================================
+
+enumScript29:
+
+  call             loc_15671
+  op01             $BFB3,$79D8,$07,$02,$00,$0E
+  jump             loc_15661
+
+; end: 0x15655
+
+;==================================
+; Script 0x15655
+;==================================
+
+enumScript2A:
+
+  call             loc_15671
+  op01             $BFC1,$79D8,$08,$02,$00,$0E
+loc_15661:
+  op09             
+  op13             $11,$00,$BE67
+  op13             $1C,$01,$82D4
+  op10             $01
+  waitFrames       $3C
+  terminate        
+
+; end: 0x15671
+
+;==================================
+; Script 0x15671
+;==================================
+
+loc_15671:
+  loadPsGraphic    $4000,$B468,$12
+  loadPsGraphic    $4800,$B6CA,$0E
+  loadPsGraphic    $5A00,$8012,$17
+  vramFill         $011F,$7800,$0380
+  op01             $80BC,$7B8E,$05,$03,$00,$17
+  op02             $C8D7,$88,$98,$0C
+  ret              
+
+; end: 0x1569A
+
+;==================================
+; Script 0x1569A
+;==================================
+
+enumScript10:
+
+  loadPsGraphic    $4000,$92BF,$09
+  loadPsGraphic    $4E00,$8000,$11
+  loadPsGraphic    $5A80,$AE44,$10
+  loadPsGraphic    $5200,$89C8,$11
+  loadPsGraphic    $6000,$8386,$11
+  loadPsGraphic    $65E0,$8547,$11
+  call             loc_16840
+  print            $03,$46
+  waitFrames       $6E
+  print            $03,$47
+  waitFrames       $65
+  op1C             $A2DA,$1C
+  print            $03,$48
+  waitFrames       $18
+  op02             $C96F,$50,$90,$E1
+  op03             $0C20,$C96F,$00,$00,$00,$00
+  op02             $C997,$40,$60,$E2
+  op03             $0920,$C997,$00,$00,$00,$00
+  op07             $C1
+  op1B             $20,$02
+  waitFrames       $26
+  print            $03,$49
+  waitFrames       $3C
+  waitFrames       $35
+  op2C             
+  print            $03,$4A
+  waitFrames       $60
+  writeByte        $CBA4,$00
+  call             loc_1570e
+  terminate        
+
+; end: 0x1570E
+
+;==================================
+; Script 0x1570E
+;==================================
+
+loc_1570e:
+  vramFill         $0094,$7900,$0100
+  call             loc_16d21
+  op13             $1C,$00,$8874
+  op02             $C91F,$3C,$6C,$E5
+  op03             $0F01,$C91F,$00,$00,$00,$00
+  op20             $C947,$00
+  op02             $C96F,$38,$58,$E2
+  op02             $C997,$60,$98,$E1
+  op09             
+  op07             $C1
+  op1B             $20,$02
+  op01             $8E2E,$790C,$14,$08,$80,$11
+  waitFrames       $14
+  print            $03,$4B
+  waitFrames       $38
+loc_15752:
+  op01             $8DAE,$780C,$14,$12,$80,$11
+  op07             $B3
+  op1B             $10,$01
+  op03             $1120,$C96F,$00,$00,$00,$00
+  op03             $1420,$C997,$00,$00,$00,$00
+  op02             $C9BF,$A8,$00,$E1
+  op03             $1720,$C9BF,$00,$00,$00,$00
+  op02             $C9E7,$A8,$00,$E2
+  op03             $1940,$C9E7,$00,$00,$00,$00
+  op1C             $A8DF,$1C
+  op14             $0600,$01AF
+  op09             
+  op14             $0600,$02BF
+  op09             
+  op14             $0600,$03CF
+  op09             
+  op14             $0600,$04DF
+  op09             
+  op14             $0500,$01AF
+  op14             $0600,$05EF
+  op09             
+  op14             $0500,$02BF
+  op14             $0600,$06FF
+  op09             
+  op14             $0500,$03CF
+  op14             $0600,$07FF
+  op09             
+  op14             $0500,$04DF
+  op14             $0600,$08FF
+  op09             
+  op14             $0500,$05EF
+  op14             $0600,$09FF
+  op09             
+  op14             $0500,$06FF
+  op14             $0600,$0AFF
+  op09             
+  op14             $0500,$07FF
+  op14             $0600,$0BFF
+  op09             
+  op14             $0500,$08FF
+  op14             $0600,$0CFF
+  op09             
+  op14             $0500,$09FF
+  op14             $0600,$0DFF
+  op09             
+  op14             $0500,$0AFF
+  op14             $0600,$0EFF
+  op09             
+  op14             $0500,$0BFF
+  op14             $0600,$0FFF
+  op09             
+  op14             $0500,$0CFF
+  op09             
+  op14             $0500,$0DFF
+  op09             
+  op14             $0500,$0EFF
+  op09             
+  op14             $0500,$0FFF
+  op09             
+  setLoopCount     $0A
+loc_1583f:
+  op13             $1C,$00,$8DD4
+  op09             
+  op13             $1C,$00,$8DF4
+  op09             
+  loop             loc_1583f
+  setLoopCount     $11
+loc_15850:
+  op13             $1C,$00,$8E14
+  op09             
+  op13             $1C,$00,$8E34
+  op09             
+  loop             loc_15850
+  setLoopCount     $19
+loc_15861:
+  op13             $1C,$00,$8E54
+  op09             
+  op13             $1C,$00,$8E74
+  op09             
+  loop             loc_15861
+  setLoopCount     $0F
+loc_15872:
+  op13             $1C,$00,$8E94
+  op09             
+  op13             $1C,$00,$8EB4
+  op09             
+  loop             loc_15872
+  setLoopCount     $0F
+loc_15883:
+  op13             $1C,$00,$8ED4
+  op09             
+  op13             $1C,$00,$8EF4
+  op09             
+  loop             loc_15883
+  setLoopCount     $0F
+loc_15894:
+  op13             $1C,$00,$8F14
+  op09             
+  op13             $1C,$00,$8F34
+  op09             
+  loop             loc_15894
+  setLoopCount     $14
+loc_158a5:
+  op13             $1C,$00,$8F54
+  op09             
+  op13             $1C,$00,$8F74
+  op09             
+  loop             loc_158a5
+  op20             $C96F,$00
+  op20             $C997,$00
+  op20             $C9BF,$00
+  op20             $C9E7,$00
+  writeByte        $C908,$00
+  writeByte        $CBA4,$00
+  op13             $1C,$00,$8C54
+  op13             $1C,$01,$8954
+  op09             
+  op13             $1C,$01,$8974
+  op09             
+  op13             $1C,$01,$8994
+  op09             
+  op13             $1C,$01,$89B4
+  op09             
+  op13             $1C,$01,$89D4
+  op09             
+  op13             $1C,$01,$89F4
+  op09             
+  op13             $1C,$01,$8A14
+  op09             
+  op13             $1C,$01,$8A34
+  op09             
+  op13             $1C,$01,$8A54
+  waitFrames       $28
+  ret              
+
+; end: 0x15909
+
+;==================================
+; Script 0x15909
+;==================================
+
+enumScript11:
+
+  op21             
+  loadPsGraphic    $4000,$92BF,$09
+  loadPsGraphic    $4E00,$8000,$11
+  loadPsGraphic    $5A80,$AE44,$10
+  loadPsGraphic    $6000,$8386,$11
+  loadPsGraphic    $65E0,$8547,$11
+  loadPsGraphic    $4BA0,$9881,$11
+  op08             $9A
+  op13             $1C,$01,$8A74
+  call             loc_16845
+  op02             $C947,$5B,$70,$E0
+  op03             $2740,$C947,$00,$00,$00,$00
+  print            $03,$4C
+  waitFrames       $08
+  op13             $1C,$00,$8A94
+  op14             $0201,$0201
+  op14             $0701,$031F
+  waitFrames       $08
+  op13             $1C,$00,$8AB4
+  op14             $0201,$0311
+  op14             $0701,$052D
+  waitFrames       $08
+  op13             $1C,$00,$8AD4
+  op14             $0201,$0411
+  op14             $0701,$073B
+  waitFrames       $08
+  op13             $1C,$00,$8AF4
+  op14             $0201,$0510
+  op14             $0701,$0A3B
+  waitFrames       $08
+  op13             $1C,$00,$8B14
+  op14             $0201,$0712
+  op14             $0701,$0E6A
+  waitFrames       $08
+  op13             $1C,$00,$8B34
+  op14             $0201,$0A13
+  op14             $0701,$0F89
+  waitFrames       $08
+  op13             $1C,$00,$8B54
+  waitFrames       $08
+  op13             $1C,$00,$8B74
+  waitFrames       $08
+  op13             $1C,$00,$8B94
+  waitFrames       $08
+  print            $03,$4D
+  op13             $1C,$00,$8BB4
+  waitFrames       $08
+  op13             $1C,$00,$8BD4
+  waitFrames       $08
+  op14             $0E00,$0F28
+  waitFrames       $1E
+  op14             $0D00,$0905
+  waitFrames       $1E
+  op14             $0C00,$0905
+  waitFrames       $1E
+  print            $03,$4E
+  op14             $0B00,$0C25
+  waitFrames       $1E
+  op14             $0A00,$0B06
+  waitFrames       $1E
+  op14             $0900,$0B06
+  waitFrames       $3C
+  op11             $01
+  loadPsGraphic    $4E00,$A89B,$12
+  loadPsGraphic    $6000,$9DBC,$0F
+  op01             $A83E,$7834,$20,$12,$80,$14
+  op20             $C947,$00
+  op02             $C91F,$96,$78,$4E
+  op09             
+  op13             $11,$01,$BD67
+  op13             $11,$00,$BD47
+  op28             $2B
+  op10             $01
+  waitFrames       $78
+  op07             $A7
+  op20             $C91F,$72
+  op13             $11,$01,$BD87
+  waitFrames       $03
+  op13             $11,$01,$BDA7
+  waitFrames       $03
+  op13             $11,$01,$BDC7
+  waitFrames       $03
+  op13             $11,$01,$BDE7
+  waitFrames       $03
+  op13             $11,$01,$BE07
+  waitFrames       $03
+  op13             $11,$01,$BE27
+  waitFrames       $03
+  op13             $11,$01,$BE47
+  waitFrames       $03
+  op07             $A7
+  op20             $C91F,$73
+  waitFrames       $46
+  op11             $01
+  writeWord        $C1C4,$0000
+  loadPsGraphic    $55A0,$93EA,$11
+  loadPsGraphic    $6200,$991E,$11
+  loadPsGraphic    $63E0,$B14F,$09
+  call             loc_16d33
+  call             loc_15d05
+  op02             $C997,$5F,$60,$CC
+  op09             
+  op1C             $A581,$1C
+  print            $03,$4F
+  waitFrames       $84
+  op02             $C997,$5F,$60,$DD
+  waitFrames       $1E
+  writeByte        $CBA4,$00
+  loadPsGraphic    $5A80,$A89E,$0E
+  call             loc_16873
+  op13             $1C,$00,$8854
+  op13             $1C,$01,$8594
+  op09             
+  op01             $99E2,$790C,$14,$08,$01,$11
+  op02             $C91F,$3F,$98,$DF
+  print            $03,$50
+  waitFrames       $3C
+  print            $03,$51
+  waitFrames       $4E
+  print            $03,$52
+  waitFrames       $74
+  call             loc_15d05
+  op02             $C997,$5F,$60,$DD
+  op09             
+  op1C             $A581,$1C
+  op02             $C91F,$A0,$5E,$E6
+  op03             $E620,$C91F,$00,$FE,$00,$00
+  waitFrames       $3C
+  op02             $C997,$5F,$60,$CC
+  print            $03,$53
+  waitFrames       $72
+  op02             $C997,$5F,$60,$DD
+  op03             $0080,$C91F,$80,$00,$00,$00
+  waitFrames       $78
+  op02             $C997,$5F,$60,$CC
+  print            $03,$54
+  waitFrames       $54
+  op02             $C997,$5F,$60,$DD
+  waitFrames       $1E
+  op08             $DD
+  print            $03,$55
+  writeByte        $CBA4,$00
+  op02             $C96F,$4F,$58,$7E
+  op02             $C997,$5F,$60,$7F
+  loadPsGraphic    $5200,$907E,$11
+  op09             
+  op2C             
+  op02             $C96F,$4F,$58,$CF
+  waitFrames       $30
+  op02             $C91F,$A0,$78,$E7
+  op03             $E748,$C91F,$00,$FF,$00,$00
+  op13             $1C,$01,$9614
+  op1C             $A748,$1C
+  waitFrames       $48
+  print            $03,$56
+  op02             $C96F,$4F,$58,$E9
+  op03             $040A,$C91F,$40,$00,$00,$00
+  waitFrames       $48
+  op02             $C997,$5F,$60,$EA
+  print            $03,$57
+  waitFrames       $41
+  print            $03,$58
+  waitFrames       $4D
+  print            $03,$59
+  waitFrames       $5C
+  print            $03,$5A
+  waitFrames       $44
+  op02             $C96F,$4F,$58,$7C
+  op02             $C997,$5F,$60,$DC
+  print            $03,$5B
+  waitFrames       $4A
+  op02             $C96F,$4F,$58,$CF
+  op20             $C997,$CB
+  op02             $C947,$A0,$54,$CD
+  op03             $CD20,$C947,$00,$FE,$00,$00
+  op1C             $A5D7,$1C
+  waitFrames       $20
+  print            $03,$5C
+  waitFrames       $12
+  op20             $C997,$DD
+  waitFrames       $28
+  op16             $02
+  vramFill         $011F,$7900,$0100
+  call             loc_1687a
+  op08             $93
+  op13             $1C,$00,$9FE4
+  op1C             $A519,$1C
+  op27             
+  op01             $936A,$7918,$08,$08,$80,$11
+  print            $03,$5D
+  waitFrames       $60
+  print            $03,$5E
+  waitFrames       $69
+  print            $03,$5F
+  waitFrames       $78
+  print            $03,$60
+  waitFrames       $7E
+  print            $03,$61
+  waitFrames       $3C
+  print            $03,$62
+  waitFrames       $75
+  print            $03,$63
+  waitFrames       $36
+  print            $03,$64
+  waitFrames       $6F
+  print            $03,$65
+  waitFrames       $45
+  print            $03,$66
+  waitFrames       $48
+  print            $03,$67
+  waitFrames       $6C
+  op2C             
+  op16             $02
+  writeByte        $C013,$01
+  loadPsGraphic    $5BA0,$8AE2,$0E
+  call             loc_16873
+  op02             $C947,$4F,$58,$E9
+  op02             $C96F,$5F,$60,$CC
+  op02             $C91F,$58,$78,$E7
+  op03             $040A,$C91F,$40,$00,$00,$00
+  op09             
+  op13             $11,$00,$B7D7
+  op14             $2000,$015F
+  op13             $1C,$01,$87D4
+  call             loc_14fc8
+  op15             $02
+  op1C             $A748,$1C
+  op08             $8F
+  print            $03,$68
+  waitFrames       $8A
+  op20             $C96F,$CB
+  op03             $0506,$C91F,$80,$FF,$00,$00
+  print            $03,$69
+  waitFrames       $6C
+  writeByte        $CBA4,$00
+  call             loc_16873
+  op13             $1C,$00,$8854
+  op13             $1C,$01,$8594
+  op09             
+  op02             $C91F,$3F,$98,$D3
+  op09             
+  op01             $99E2,$790C,$14,$08,$01,$11
+  print            $03,$6A
+  waitFrames       $36
+  print            $03,$6B
+  waitFrames       $45
+  print            $03,$6C
+  waitFrames       $75
+  print            $03,$6D
+  waitFrames       $96
+  call             loc_16873
+  op13             $11,$00,$B7D7
+  op14             $0000,$015F
+  op13             $1C,$01,$87D4
+  op09             
+  op02             $C947,$4F,$58,$DA
+  op02             $C96F,$5F,$60,$CC
+  op02             $C91F,$58,$78,$E7
+  op03             $040A,$C91F,$40,$00,$00,$00
+  op09             
+  call             loc_14fc8
+  op1C             $A748,$1C
+  print            $03,$6E
+  waitFrames       $6C
+  print            $03,$6F
+  waitFrames       $4E
+  terminate        
+
+; end: 0x15D05
+
+;==================================
+; Script 0x15D05
+;==================================
+
+loc_15d05:
+  call             loc_16d21
+  call             loc_16873
+  op13             $11,$00,$B7D7
+  op14             $0000,$015F
+  op13             $1C,$01,$87D4
+  op09             
+  call             loc_14fc8
+  op02             $C96F,$4F,$58,$E8
+  ret              
+
+; end: 0x15D25
+
+;==================================
+; Script 0x15D25
+;==================================
+
+enumScript13:
+
+  loadPsGraphic    $4000,$92BF,$09
+  loadPsGraphic    $4E00,$B21C,$10
+  loadPsGraphic    $5500,$B804,$10
+  loadPsGraphic    $5A00,$8DDD,$12
+  loadPsGraphic    $60C0,$8E47,$0E
+  op08             $8E
+  call             loc_16d33
+  op01             $A4C2,$790C,$14,$08,$80,$0E
+  op13             $1C,$00,$8FD4
+  op14             $0101,$0FFF
+  op02             $C91F,$72,$E4,$27
+  op03             $1B01,$C91F,$00,$00,$00,$00
+  op02             $C947,$6A,$E4,$28
+  op03             $1B38,$C947,$00,$00,$00,$00
+  op02             $C96F,$72,$E4,$29
+  op03             $1B70,$C96F,$00,$00,$00,$00
+  op02             $C997,$6A,$E4,$2A
+  op03             $1BB8,$C997,$00,$00,$00,$00
+  waitFrames       $28
+  op13             $1C,$00,$8FF4
+  waitFrames       $03
+  op13             $1C,$00,$9014
+  waitFrames       $03
+  op13             $1C,$00,$9034
+  waitFrames       $03
+  op13             $1C,$00,$9054
+  waitFrames       $03
+  op13             $1C,$00,$9074
+  waitFrames       $03
+  op13             $1C,$00,$9094
+  waitFrames       $03
+  op13             $1C,$00,$90B4
+  waitFrames       $03
+  op13             $1C,$00,$90D4
+  waitFrames       $03
+  op13             $1C,$00,$90F4
+  waitFrames       $03
+  op13             $1C,$00,$9114
+  waitFrames       $03
+  op13             $1C,$00,$9134
+  waitFrames       $03
+  op13             $1C,$00,$9154
+  waitFrames       $03
+  op13             $1C,$00,$9174
+  waitFrames       $03
+  op13             $1C,$00,$9194
+  waitFrames       $03
+  op13             $1C,$00,$91B4
+  waitFrames       $03
+  op01             $B6C4,$790C,$14,$08,$80,$10
+  op02             $CA0F,$47,$80,$EB
+  op02             $CA37,$47,$80,$EC
+  op14             $0E00,$0EFF
+  op13             $1C,$01,$94B4
+  waitFrames       $03
+  op13             $1C,$00,$91D4
+  op14             $0201,$0EED
+  waitFrames       $03
+  op13             $1C,$00,$91F4
+  op14             $0201,$0CCC
+  waitFrames       $03
+  op13             $1C,$00,$9214
+  op14             $0201,$0BBB
+  op14             $0601,$0EFF
+  waitFrames       $03
+  op13             $1C,$00,$9234
+  op14             $0201,$0AAA
+  op14             $0601,$0DFF
+  waitFrames       $03
+  op13             $1C,$00,$9254
+  op13             $1C,$01,$94D4
+  waitFrames       $03
+  op13             $1C,$00,$9274
+  op13             $1C,$01,$94F4
+  waitFrames       $03
+  op13             $1C,$00,$9294
+  op13             $1C,$01,$9514
+  waitFrames       $03
+  op13             $1C,$00,$92B4
+  op13             $1C,$01,$9534
+  waitFrames       $03
+  op13             $1C,$00,$92D4
+  op13             $1C,$01,$9554
+  waitFrames       $03
+  op13             $1C,$00,$92F4
+  op13             $1C,$01,$9574
+  waitFrames       $03
+  op13             $1C,$00,$9314
+  op13             $1C,$01,$9594
+  waitFrames       $03
+  op13             $1C,$00,$9334
+  op13             $1C,$01,$95B4
+  waitFrames       $03
+  op13             $1C,$00,$9354
+  op13             $1C,$01,$95D4
+  waitFrames       $03
+  op13             $1C,$01,$95F4
+  waitFrames       $03
+  op1C             $A7BF,$1C
+  waitFrames       $14
+  print            $03,$93
+  waitFrames       $38
+  print            $03,$94
+  waitFrames       $4E
+  print            $03,$95
+  waitFrames       $60
+  print            $03,$96
+  waitFrames       $54
+  print            $03,$97
+  waitFrames       $7E
+  print            $03,$98
+  waitFrames       $3C
+  writeByte        $CBA4,$00
+  call             loc_16d21
+  call             loc_16873
+  op20             $C9BF,$00
+  op20             $C9E7,$00
+  op20             $CA0F,$00
+  op20             $CA37,$00
+  op13             $11,$00,$B7D7
+  op14             $0000,$0EDC
+  op13             $1C,$01,$87D4
+  op09             
+  call             loc_14fc8
+  op02             $C91F,$4F,$58,$DA
+  op02             $C947,$5F,$60,$CC
+  print            $03,$99
+  waitFrames       $60
+  print            $03,$9A
+  waitFrames       $4E
+  terminate        
+
+; end: 0x15F38
+
+;==================================
+; Script 0x15F38
+;==================================
+
+enumScript14:
+
+  loadPsGraphic    $4E00,$B21C,$10
+  loadPsGraphic    $5500,$B804,$10
+  call             loc_16d33
+  op01             $B6C4,$790C,$14,$08,$80,$10
+  op02             $C91F,$47,$80,$EB
+  op02             $C947,$47,$80,$EC
+  op13             $1C,$01,$95F4
+  op1C             $A7CB,$1C
+  print            $03,$9B
+  waitFrames       $38
+  op14             $0E01,$0000
+  waitFrames       $28
+  op14             $0F01,$0000
+  waitFrames       $28
+  op07             $A7
+  op03             $0014,$C947,$00,$02,$00,$00
+  waitFrames       $02
+  op03             $0012,$C91F,$00,$02,$00,$00
+  waitFrames       $12
+  writeByte        $CBA4,$00
+  op13             $1C,$00,$93B4
+  waitFrames       $03
+  op13             $1C,$00,$93D4
+  waitFrames       $03
+  op13             $1C,$00,$93F4
+  waitFrames       $03
+  op13             $1C,$00,$9414
+  waitFrames       $03
+  op13             $1C,$00,$9434
+  waitFrames       $03
+  op13             $1C,$00,$9454
+  waitFrames       $03
+  op1C             $A7D7,$1C
+  print            $03,$9C
+  waitFrames       $6C
+  op02             $C91F,$78,$64,$ED
+  op03             $ED10,$C91F,$00,$FE,$00,$00
+  waitFrames       $14
+  print            $03,$9D
+  waitFrames       $1E
+  op20             $C91F,$EE
+  op03             $1D10,$C91F,$00,$00,$00,$00
+  waitFrames       $32
+  print            $03,$9E
+  waitFrames       $23
+  setLoopCount     $03
+loc_15ff3:
+  op13             $1C,$00,$8C54
+  op09             
+  op13             $1C,$00,$9494
+  op09             
+  loop             loc_15ff3
+  op16             $01
+  terminate        
+
+; end: 0x16005
+
+;==================================
+; Script 0x16005
+;==================================
+
+loc_16005:
+  loadPsGraphic    $5E20,$A467,$11
+  call             loc_1627c
+  ifEq             $C010,$1F,loc_16030
+  op02             $C91F,$4F,$70,$F0
+  op02             $C947,$5F,$78,$F1
+  print            $03,$7F
+  waitFrames       $65
+  print            $03,$80
+  waitFrames       $5F
+  print            $03,$81
+  waitFrames       $5C
+  terminate        
+
+; end: 0x16030
+
+;==================================
+; Script 0x16030
+;==================================
+
+loc_16030:
+  op02             $C91F,$4F,$70,$F4
+  op02             $C947,$5F,$78,$F6
+  print            $03,$82
+  waitFrames       $68
+  print            $03,$83
+  waitFrames       $3C
+  op02             $C947,$5F,$78,$F5
+  waitFrames       $1E
+  jump             loc_1630d
+
+; end: 0x16051
+
+;==================================
+; Script 0x16051
+;==================================
+
+enumScript12:
+
+  loadPsGraphic    $4000,$92BF,$09
+  loadPsGraphic    $55A0,$93EA,$11
+  loadPsGraphic    $5BA0,$8AE2,$0E
+  loadPsGraphic    $4BA0,$A226,$11
+  loadPsGraphic    $5200,$9A82,$11
+  loadPsGraphic    $60C0,$8E47,$0E
+  ifEq             $C010,$40,loc_16005
+  or               $C010,$40
+  op13             $1C,$00,$82F4
+  op14             $0000,$062B
+  op13             $1C,$01,$82D4
+  call             loc_16d29
+  op02             $C91F,$3F,$98,$D3
+  print            $03,$70
+  waitFrames       $44
+  call             loc_16d21
+  op1F             $0078,$0100
+  op03             $0028,$C91F,$00,$00,$00,$02
+  op09             
+  waitFrames       $40
+  op13             $1C,$01,$9654
+  op02             $C91F,$47,$18,$EF
+  op03             $EF34,$C91F,$00,$00,$00,$02
+  waitFrames       $34
+  writeWord        $C1B8,$0000
+  op02             $C947,$46,$20,$E7
+  op03             $E740,$C947,$C0,$FF,$00,$02
+  op1C             $A748,$1C
+  print            $03,$71
+  waitFrames       $16
+  writeWord        $C957,$0000
+  waitFrames       $1C
+  writeWord        $C957,$0040
+  waitFrames       $0E
+  call             loc_16260
+  op0E             $00,$C8
+  writeByte        $C1BF,$00
+  op13             $11,$00,$B7D7
+  op14             $0000,$044F
+  call             loc_14fa9
+  op02             $C91F,$4F,$58,$C9
+  op02             $C947,$5F,$60,$CC
+  print            $03,$72
+  waitFrames       $4E
+  op02             $C947,$5F,$5F,$CB
+  waitFrames       $3C
+  op02             $C91F,$4F,$58,$DE
+  op02             $C947,$5F,$60,$DD
+  waitFrames       $1E
+  call             loc_16d21
+  call             loc_16873
+  op13             $1C,$00,$9694
+  call             loc_16289
+  waitFrames       $14
+  print            $03,$73
+  waitFrames       $41
+  loadPsGraphic    $5E20,$A467,$11
+  op13             $11,$00,$B7D7
+  op14             $0000,$044F
+  call             loc_14fa9
+  op02             $C91F,$4F,$58,$DE
+  op02             $C947,$5F,$60,$DD
+  print            $03,$74
+  waitFrames       $32
+  call             loc_16873
+  op13             $1C,$00,$9694
+  call             loc_16289
+  op13             $1C,$00,$96B4
+  op13             $1C,$01,$9814
+  waitFrames       $04
+  op13             $1C,$00,$96D4
+  op13             $1C,$01,$9834
+  waitFrames       $04
+  op13             $1C,$00,$96F4
+  op13             $1C,$01,$9854
+  waitFrames       $04
+  op13             $1C,$00,$9714
+  op13             $1C,$01,$9874
+  waitFrames       $04
+  op13             $1C,$00,$9734
+  op13             $1C,$01,$9894
+  waitFrames       $04
+  op13             $1C,$00,$9754
+  op13             $1C,$01,$98B4
+  waitFrames       $04
+  op13             $1C,$00,$9774
+  op13             $1C,$01,$98D4
+  waitFrames       $04
+  op13             $1C,$00,$9794
+  op13             $1C,$01,$98F4
+  waitFrames       $04
+  op13             $1C,$00,$97B4
+  op13             $1C,$01,$9914
+  waitFrames       $04
+  op13             $1C,$00,$97D4
+  op13             $1C,$01,$9934
+  waitFrames       $04
+  print            $03,$75
+  op02             $C91F,$4F,$70,$F0
+  op02             $C947,$5F,$78,$F1
+  waitFrames       $60
+  setLoopCount     $03
+loc_161fe:
+  op14             $0000,$007F
+  op14             $0E00,$007F
+  waitFrames       $02
+  op14             $0000,$0CFF
+  op14             $0E00,$0CFF
+  waitFrames       $02
+  loop             loc_161fe
+  op13             $1C,$00,$97D4
+  op08             $8F
+  print            $03,$76
+  waitFrames       $75
+  print            $03,$77
+  waitFrames       $75
+  print            $03,$78
+  waitFrames       $6C
+  print            $03,$79
+  waitFrames       $81
+  print            $03,$7A
+  waitFrames       $54
+  op02             $C947,$5F,$78,$F3
+  waitFrames       $1E
+  ifEq             $C010,$1F,loc_162ef
+  op02             $C947,$5F,$78,$F1
+  print            $03,$7D
+  waitFrames       $6C
+  print            $03,$7E
+  waitFrames       $4C
+  op02             $C947,$5F,$78,$F3
+  waitFrames       $1E
+  terminate        
+
+; end: 0x16260
+
+;==================================
+; Script 0x16260
+;==================================
+
+loc_16260:
+  setLoopCount     $03
+loc_16262:
+  op03             $E714,$C947,$40,$00,$00,$00
+  waitFrames       $0A
+  op03             $E714,$C947,$C0,$FF,$00,$00
+  waitFrames       $0A
+  loop             loc_16262
+  ret              
+
+; end: 0x1627C
+
+;==================================
+; Script 0x1627C
+;==================================
+
+loc_1627c:
+  call             loc_16873
+  op13             $1C,$00,$97D4
+loc_16284:
+  op13             $1C,$01,$9934
+loc_16289:
+  op09             
+loc_1628a:
+  op01             $A0E6,$790C,$14,$08,$80,$11
+  ret              
+
+; end: 0x16294
+
+;==================================
+; Script 0x16294
+;==================================
+
+loc_16294:
+  op14             $0300,$0FEC
+  op14             $0800,$0FEC
+  op09             
+  op14             $0300,$0BE6
+  op14             $0800,$0BE6
+  op14             $0A00,$0BE6
+  op09             
+  op14             $0300,$07E3
+  op14             $0800,$07E3
+  op14             $0A00,$07E3
+  op14             $0D00,$07E3
+  op09             
+  op14             $0300,$02C0
+  op14             $0800,$02C0
+  op14             $0A00,$02C0
+  op14             $0D00,$02C0
+  op09             
+  ret              
+
+; end: 0x162DA
+
+;==================================
+; Script 0x162DA
+;==================================
+
+loc_162da:
+  op14             $0300,$0000
+  op14             $0800,$0000
+  op14             $0A00,$0000
+  op14             $0D00,$0000
+  ret              
+
+; end: 0x162EF
+
+;==================================
+; Script 0x162EF
+;==================================
+
+loc_162ef:
+  op02             $C91F,$4F,$70,$F4
+  op02             $C947,$5F,$78,$F6
+  print            $03,$7B
+  waitFrames       $78
+  print            $03,$7C
+  waitFrames       $36
+  op02             $C947,$5F,$78,$F5
+  waitFrames       $1E
+loc_1630d:
+  op21             
+  op2B             
+  call             loc_16d33
+  call             loc_1687a
+  call             loc_16d21
+  op13             $1C,$00,$9A14
+  loadPsGraphic    $4000,$92BF,$09
+  loadPsGraphic    $4080,$A7EC,$07
+  loadPsGraphic    $4100,$A856,$07
+  loadPsGraphic    $4180,$A8BE,$07
+  loadPsGraphic    $4200,$A928,$07
+  loadPsGraphic    $4280,$A992,$07
+  loadPsGraphic    $4BC0,$A6E7,$11
+  loadPsGraphic    $4E00,$9BC1,$09
+  loadPsGraphic    $5E20,$A467,$11
+  loadPsGraphic    $5F00,$A56D,$11
+  loadPsGraphic    $5200,$9A82,$11
+  loadPsGraphic    $5A00,$A5F1,$11
+  vramFill         $0071,$7900,$0100
+  op13             $1C,$00,$9A34
+  op02             $C91F,$40,$70,$F7
+  op1C             $A6BA,$1C
+  print            $03,$84
+  setLoopCount     $0F
+loc_16380:
+  call             loc_16294
+  call             loc_162da
+  op09             
+  loop             loc_16380
+  vramFill         $0070,$78C0,$0020
+  vramFill         $0470,$7B00,$0020
+  call             loc_16294
+  vramFill         $0071,$78C0,$0020
+  vramFill         $0071,$7B00,$0020
+  call             loc_162da
+  op09             
+  vramFill         $0070,$7880,$0020
+  vramFill         $0470,$7B40,$0020
+  call             loc_16294
+  vramFill         $0071,$7880,$0020
+  vramFill         $0071,$7B40,$0020
+  call             loc_162da
+  op09             
+  op03             $1A10,$C91F,$80,$00,$00,$00
+  vramFill         $0070,$7840,$0020
+  vramFill         $0470,$7B80,$0020
+  call             loc_16294
+  vramFill         $0071,$7840,$0020
+  vramFill         $0071,$7B80,$0020
+  call             loc_162da
+  op09             
+  vramFill         $0070,$7800,$0020
+  vramFill         $0470,$7BC0,$0020
+  call             loc_16294
+  vramFill         $0071,$7800,$0020
+  vramFill         $0071,$7BC0,$0020
+  call             loc_162da
+  op09             
+  vramFill         $0470,$7C00,$0020
+  call             loc_16294
+  vramFill         $0071,$7C00,$0020
+  call             loc_162da
+  op09             
+  vramFill         $0470,$7C40,$0020
+  call             loc_16294
+  vramFill         $0071,$7C40,$0020
+  call             loc_162da
+  op09             
+  vramFill         $0470,$7C80,$0020
+  call             loc_16294
+  vramFill         $0071,$7C80,$0020
+  call             loc_162da
+  op09             
+  vramFill         $0470,$7CC0,$0020
+  call             loc_16294
+  vramFill         $0071,$7CC0,$0020
+  call             loc_162da
+  op09             
+  op07             $B8
+  op02             $C947,$54,$80,$10
+  op03             $1A18,$C947,$00,$FE,$00,$00
+  op02             $C96F,$5F,$90,$11
+  op03             $1A18,$C96F,$62,$FF,$E6,$01
+  op02             $C997,$71,$89,$12
+  op03             $1A18,$C997,$9E,$01,$2C,$01
+  op02             $C9BF,$71,$77,$13
+  op03             $1A18,$C9BF,$9E,$01,$D4,$FE
+  op02             $C9E7,$5F,$70,$14
+  op03             $1A18,$C9E7,$62,$FF,$1A,$FE
+  setLoopCount     $15
+loc_164c2:
+  call             loc_16294
+  loop             loc_164c2
+  call             loc_16d33
+  call             loc_16873
+  op20             $C997,$00
+  op20             $C9BF,$00
+  op20             $C9E7,$00
+  op13             $1C,$00,$9A34
+  op13             $1C,$01,$97F4
+  op09             
+  op1C             $A692,$1C
+  call             loc_1628a
+  op02             $C91F,$4F,$70,$F4
+  op02             $C947,$5F,$78,$F6
+  op02             $C96F,$60,$58,$F8
+  op09             
+  print            $03,$85
+  waitFrames       $84
+  print            $03,$86
+  waitFrames       $4E
+  loadPsGraphic    $4000,$92BF,$09
+  op09             
+  call             loc_16d21
+  op13             $1C,$00,$A244
+  op1C             $A324,$1C
+  call             loc_14fa9
+  op02             $C91F,$4F,$58,$DA
+  op02             $C947,$5F,$60,$DD
+  print            $03,$87
+  waitFrames       $3C
+  call             loc_16d21
+  op11             $02
+  writeByte        $CBA4,$00
+  op20             $C947,$00
+  call             loc_14e16
+  print            $03,$88
+  waitFrames       $48
+  op20             $C91F,$00
+  writeByte        $C908,$00
+  writeByte        $CBA4,$00
+  op16             $02
+  call             loc_16d21
+  loadPsGraphic    $4200,$A89D,$11
+  loadPsGraphic    $4E00,$8000,$11
+  loadPsGraphic    $5A80,$AE44,$10
+  loadPsGraphic    $5200,$89C8,$11
+  loadPsGraphic    $6000,$8386,$11
+  loadPsGraphic    $65E0,$8547,$11
+  op01             $B0D9,$790C,$14,$08,$80,$11
+  setLoopCount     $03
+loc_16585:
+  op14             $0C00,$0DFF
+  op14             $0F00,$0FFE
+  waitFrames       $04
+  op13             $1C,$00,$8C34
+  waitFrames       $04
+  loop             loc_16585
+  op14             $0B00,$0EFF
+  op14             $0C00,$0BFF
+  op14             $0F00,$0FFC
+  waitFrames       $04
+  op13             $1C,$00,$8C34
+  waitFrames       $04
+  op14             $0B00,$0DFF
+  op14             $0C00,$09FF
+  op14             $0F00,$0FFB
+  waitFrames       $04
+  op13             $1C,$00,$8C34
+  waitFrames       $04
+  op14             $0B00,$0CFF
+  op14             $0C00,$09FF
+  op14             $0F00,$0FFA
+  waitFrames       $04
+  op13             $1C,$00,$8C34
+  waitFrames       $04
+  op14             $0B00,$0CFF
+  op14             $0C00,$08FF
+  op14             $0F00,$0FF8
+  waitFrames       $04
+  op13             $1C,$00,$8C34
+  waitFrames       $04
+  op14             $0B00,$0CFF
+  op14             $0C00,$08FF
+  op14             $0F00,$0FF5
+  waitFrames       $04
+  op13             $1C,$00,$8C34
+  waitFrames       $04
+  op14             $0B00,$0CFF
+  op14             $0C00,$08FF
+  op14             $0F00,$0FF1
+  waitFrames       $04
+  op13             $1C,$00,$8C34
+  waitFrames       $04
+  op14             $0B00,$0CFF
+  op14             $0C00,$08FF
+  op14             $0F00,$0FE0
+  waitFrames       $04
+  op14             $0100,$0000
+  op14             $0200,$0FFF
+  print            $03,$89
+  setLoopCount     $1E
+loc_1664b:
+  op14             $0B00,$0CFF
+  op14             $0C00,$08FF
+  op14             $0F00,$0FE0
+  op09             
+  op14             $0B00,$0FFF
+  op14             $0C00,$0FFF
+  op14             $0F00,$0FFF
+  op09             
+  loop             loc_1664b
+  call             loc_16d21
+  op01             $8DAE,$780C,$14,$12,$80,$11
+  op13             $1C,$00,$9AF4
+  op13             $1C,$01,$9B74
+  op02             $C91F,$3C,$6C,$E5
+  op07             $B3
+  op1B             $10,$01
+  setLoopCount     $05
+loc_16691:
+  op14             $0300,$0FFF
+  op09             
+  op14             $0300,$0FFC
+  op09             
+  loop             loc_16691
+  op13             $1C,$01,$9B94
+  setLoopCount     $05
+loc_166a7:
+  op14             $0300,$0FFB
+  op14             $0500,$0FFB
+  op14             $0800,$0DFB
+  op09             
+  op14             $0300,$0FFC
+  op14             $0500,$0FFB
+  op14             $0800,$0FFC
+  op09             
+  loop             loc_166a7
+  op13             $1C,$01,$9BB4
+  setLoopCount     $05
+loc_166d1:
+  op14             $0300,$0FFB
+  op14             $0500,$0FF9
+  op14             $0800,$0BFB
+  op09             
+  op14             $0300,$0FFC
+  op14             $0500,$0FFC
+  op14             $0800,$0FFC
+  op09             
+  loop             loc_166d1
+  op13             $1C,$01,$9BD4
+  op1C             $A674,$1C
+  waitFrames       $0A
+  op13             $1C,$01,$9BF4
+  waitFrames       $0A
+  op13             $1C,$01,$9C14
+  waitFrames       $0A
+  op13             $1C,$01,$9C34
+  waitFrames       $0A
+  op13             $1C,$01,$9C54
+  waitFrames       $0A
+  op13             $1C,$01,$9C74
+  waitFrames       $0A
+  op13             $1C,$01,$9C94
+  waitFrames       $0A
+  op13             $1C,$01,$9CB4
+  writeByte        $C908,$00
+  waitFrames       $1E
+  writeByte        $CBA4,$00
+  op20             $C91F,$00
+  op13             $11,$00,$BB27
+  call             loc_16d33
+  call             loc_1688b
+  print            $03,$8A
+  call             loc_1682e
+  call             loc_1682e
+  call             loc_16d21
+  call             loc_1682e
+  call             loc_1694e
+  op08             $81
+  print            $03,$8B
+  waitFrames       $38
+  op13             $1C,$01,$8894
+  op13             $1C,$00,$8FB4
+  op14             $0F00,$062B
+  call             loc_1684a
+  loadPsGraphic    $4000,$92BF,$09
+  loadPsGraphic    $4BA0,$9881,$11
+  loadPsGraphic    $5200,$9A82,$11
+  loadPsGraphic    $5E20,$A467,$11
+  print            $03,$8C
+  waitFrames       $74
+  call             loc_16873
+  loadPsGraphic    $5E20,$A467,$11
+  op13             $11,$00,$B7D7
+  op14             $0000,$062B
+  op13             $1C,$01,$87D4
+  call             loc_14fc8
+  op02             $C91F,$4F,$58,$E9
+  op02             $C947,$5F,$60,$EA
+  print            $03,$8D
+  waitFrames       $A4
+  call             loc_16873
+  op13             $1C,$00,$97D4
+  op14             $0000,$062B
+  call             loc_16284
+  op02             $C91F,$4F,$70,$F4
+  op02             $C947,$5F,$78,$F6
+  print            $03,$8E
+  waitFrames       $66
+  op13             $1C,$01,$8894
+  op13             $1C,$00,$8FB4
+  op14             $0F00,$062B
+  call             loc_1684a
+  print            $03,$8F
+  waitFrames       $8D
+  op13             $1C,$00,$97D4
+  op14             $0000,$062B
+  call             loc_16284
+  op02             $C91F,$4F,$70,$F4
+  op02             $C947,$5F,$78,$F6
+  print            $03,$90
+  waitFrames       $48
+  print            $03,$91
+  waitFrames       $8A
+  op13             $1C,$01,$8894
+  op13             $1C,$00,$8FB4
+  op14             $0F00,$062B
+  call             loc_1684a
+  print            $03,$92
+  waitFrames       $7E
+  terminate        
+
+; end: 0x1682E
+
+;==================================
+; Script 0x1682E
+;==================================
+
+loc_1682e:
+  setLoopCount     $0A
+loc_16830:
+  op13             $11,$00,$BB47
+  op09             
+  op13             $11,$00,$BB67
+  op09             
+  loop             loc_16830
+  ret              
+
+; end: 0x16840
+
+;==================================
+; Script 0x16840
+;==================================
+
+loc_16840:
+  op13             $1C,$01,$8894
+loc_16845:
+  op13             $1C,$00,$8FB4
+loc_1684a:
+  call             loc_16873
+  op09             
+loc_1684e:
+  op01             $8888,$790C,$14,$08,$80,$11
+  op02             $C91F,$4F,$70,$E3
+  op02             $C947,$5B,$70,$E4
+  ret              
+
+; end: 0x16864
+
+;==================================
+; Script 0x16864
+;==================================
+
+loc_16864:
+  vramFill         $0000,$7900,$0100
+  vramFill         $111F,$7B00,$0080
+  ret              
+
+; end: 0x16873
+
+;==================================
+; Script 0x16873
+;==================================
+
+loc_16873:
+  vramFill         $0000,$7900,$0100
+loc_1687a:
+  op20             $C91F,$00
+  op20             $C947,$00
+  op20             $C96F,$00
+  op20             $C997,$00
+  ret              
+
+; end: 0x1688B
+
+;==================================
+; Script 0x1688B
+;==================================
+
+loc_1688b:
+  op01             $B0D9,$790C,$14,$08,$80,$11
+  waitFrames       $02
+  op13             $1C,$00,$8C34
+  waitFrames       $02
+  op13             $11,$00,$BB27
+  op14             $0D00,$0FEF
+  waitFrames       $02
+  op13             $1C,$00,$8C34
+  waitFrames       $02
+  op13             $11,$00,$BB27
+  op14             $0D00,$0FDF
+  waitFrames       $02
+  op13             $1C,$00,$8C34
+  waitFrames       $02
+  op13             $11,$00,$BB27
+  op14             $0D00,$0FCF
+  waitFrames       $02
+  op13             $1C,$00,$8C34
+  waitFrames       $02
+  op13             $11,$00,$BB27
+  op14             $0D00,$0FBF
+  waitFrames       $02
+  op13             $1C,$00,$8C34
+  waitFrames       $02
+  op13             $11,$00,$BB27
+  op14             $0D00,$0FAF
+  waitFrames       $02
+  op13             $1C,$00,$8C34
+  waitFrames       $02
+  op13             $11,$00,$BB27
+  op14             $0D00,$0F9F
+  waitFrames       $02
+  op13             $1C,$00,$8C34
+  waitFrames       $02
+  op13             $11,$00,$BB27
+  op14             $0D00,$0F8F
+  waitFrames       $02
+  op13             $1C,$00,$8C34
+  waitFrames       $02
+  op13             $11,$00,$BB27
+  op14             $0D00,$0F7F
+  waitFrames       $02
+  op13             $1C,$00,$8C34
+  waitFrames       $02
+  op13             $11,$00,$BB27
+  op14             $0D00,$0F6F
+  waitFrames       $02
+  op13             $1C,$00,$8C34
+  op14             $0100,$0000
+  waitFrames       $02
+  ret              
+
+; end: 0x1694E
+
+;==================================
+; Script 0x1694E
+;==================================
+
+loc_1694e:
+  op13             $11,$00,$BB87
+  waitFrames       $04
+  op13             $11,$00,$BBA7
+  waitFrames       $04
+  op13             $11,$00,$BBC7
+  waitFrames       $04
+  op13             $11,$00,$BBE7
+  waitFrames       $04
+  op13             $11,$00,$BC07
+  waitFrames       $04
+  op13             $11,$00,$BC27
+  waitFrames       $04
+  op13             $11,$00,$BC47
+  waitFrames       $04
+  op13             $11,$00,$BC67
+  waitFrames       $04
+  op13             $11,$00,$BC87
+  waitFrames       $04
+  op13             $11,$00,$BCA7
+  waitFrames       $04
+  op13             $11,$00,$BCC7
+  waitFrames       $04
+  op13             $11,$00,$BCE7
+  waitFrames       $04
+  op13             $11,$00,$BD07
+  waitFrames       $04
+  op13             $11,$00,$BD27
+  waitFrames       $04
+  op14             $0400,$0700
+  waitFrames       $04
+  op14             $0400,$0400
+  waitFrames       $04
+  op14             $0400,$0200
+  waitFrames       $04
+  ret              
+
+; end: 0x169C6
+
+;==================================
+; Script 0x169C6
+;==================================
+
+enumScript15:
+
+  op21             
+  loadPsGraphic    $4000,$92BF,$09
+  loadPsGraphic    $4E00,$8000,$11
+  loadPsGraphic    $5A80,$AE44,$10
+  loadPsGraphic    $6000,$8386,$11
+  loadPsGraphic    $65E0,$8547,$11
+  op08             $8F
+  op13             $1C,$01,$8894
+  op13             $1C,$00,$8FB4
+  op14             $0F00,$0EDC
+  call             loc_1684e
+  print            $03,$9F
+  waitFrames       $57
+  vramFill         $0000,$7900,$0100
+  op13             $11,$00,$B7D7
+  op14             $0000,$0EDC
+  op13             $1C,$01,$87D4
+  call             loc_14fc8
+  op02             $C91F,$4F,$58,$E9
+  op02             $C947,$5F,$60,$EA
+  op02             $C96F,$60,$54,$CD
+  print            $03,$A0
+  waitFrames       $48
+  op02             $C91F,$4F,$58,$DA
+  op02             $C947,$5F,$60,$CC
+  print            $03,$A1
+  waitFrames       $6C
+  print            $03,$A2
+  waitFrames       $48
+  terminate        
+
+; end: 0x16A45
+
+;==================================
+; Script 0x16A45
+;==================================
+
+enumScript16:
+
+  loadPsGraphic    $4000,$92BF,$09
+  loadPsGraphic    $6000,$8386,$11
+  loadPsGraphic    $65E0,$8547,$11
+  vramFill         $0000,$7900,$0100
+  op13             $11,$00,$B7D7
+  op14             $0000,$0821
+  call             loc_14fc2
+  op02             $C91F,$4F,$58,$DA
+  op02             $C947,$5F,$60,$CC
+  print            $03,$A3
+  waitFrames       $72
+  print            $03,$A4
+  waitFrames       $3C
+  op13             $1C,$00,$8C14
+  op09             
+  call             loc_16873
+  call             loc_16d21
+  loadPsGraphic    $4000,$858F,$16
+  loadPsGraphic    $4B20,$A83D,$12
+  loadPsGraphic    $48E0,$A87F,$12
+  loadPsGraphic    $4E00,$978F,$12
+  loadPsGraphic    $5200,$8000,$16
+  op01             $8FFD,$790C,$14,$08,$80,$16
+  op1E             $8056,$05
+  op13             $1C,$00,$9E54
+  print            $03,$A5
+  waitFrames       $5A
+  print            $03,$A6
+  waitFrames       $60
+  op20             $C91F,$00
+  op13             $10,$01,$BCC5
+  op09             
+  op02             $C91F,$46,$74,$FD
+  op07             $C0
+  print            $03,$A7
+  waitFrames       $10
+  op20             $C91F,$00
+  waitFrames       $4B
+  writeByte        $CBA7,$00
+  op13             $1C,$00,$8C14
+  op09             
+  op01             $84EF,$790C,$14,$08,$00,$16
+  print            $03,$A8
+  waitFrames       $24
+  op13             $10,$00,$BC65
+  op13             $10,$01,$BCC5
+  op02             $C947,$50,$F2,$3A
+  op03             $2622,$C947,$00,$00,$00,$FD
+  waitFrames       $16
+  op02             $C91F,$74,$4E,$FE
+  op03             $FE0C,$C91F,$00,$FD,$00,$01
+  waitFrames       $0C
+  op07             $AA
+  setLoopCount     $03
+loc_16b2c:
+  op13             $10,$00,$BC85
+  op13             $10,$01,$BCC5
+  op09             
+  op13             $10,$00,$BCA5
+  op13             $10,$01,$BCE5
+  op09             
+  loop             loc_16b2c
+  op13             $10,$00,$BC65
+  op13             $10,$01,$BCC5
+  waitFrames       $28
+  loadPsGraphic    $4E00,$8000,$11
+  op09             
+  loadPsGraphic    $5A80,$AE44,$10
+  op09             
+  op13             $10,$00,$BDE5
+  call             loc_1684a
+  print            $03,$A9
+  waitFrames       $7E
+  op13             $1C,$00,$8C14
+  call             loc_16873
+  op09             
+  loadPsGraphic    $4000,$858F,$16
+  op01             $8FFD,$790C,$14,$08,$80,$16
+  op13             $1C,$00,$9E94
+  op13             $1C,$01,$9E94
+  op02             $C91F,$57,$80,$71
+  op03             $200C,$C91F,$00,$00,$00,$00
+  op1E             $8056,$05
+  print            $03,$AA
+  waitFrames       $5A
+  op08             $8A
+  op13             $1C,$00,$9EB4
+  op13             $1C,$01,$9EB4
+  waitFrames       $02
+  op13             $1C,$00,$9ED4
+  op13             $1C,$01,$9ED4
+  waitFrames       $02
+  op13             $1C,$00,$9EF4
+  op13             $1C,$01,$9EF4
+  waitFrames       $02
+  op13             $1C,$01,$9F14
+  op1C             $A659,$1C
+  print            $03,$AB
+  waitFrames       $69
+  terminate        
+
+; end: 0x16BDB
+
+;==================================
+; Script 0x16BDB
+;==================================
+
+enumScript17:
+
+  loadPsGraphic    $4000,$858F,$16
+  loadPsGraphic    $5000,$92F5,$16
+  loadPsGraphic    $5800,$9A2D,$16
+  op01             $8FFD,$790C,$14,$08,$80,$16
+  op1E             $8056,$05
+  op1C             $A659,$1C
+  op13             $1C,$01,$9F14
+  op02             $C91F,$57,$80,$71
+  op03             $200C,$C91F,$00,$00,$00,$00
+  print            $03,$AC
+  waitFrames       $66
+  print            $03,$AD
+  waitFrames       $1E
+  op2C             
+  waitFrames       $1E
+  op20             $C91F,$00
+  op09             
+  print            $03,$AE
+  op07             $BC
+  op13             $10,$01,$BD05
+  setLoopCount     $28
+loc_16c30:
+  op01             $8FFD,$790C,$14,$08,$80,$16
+  op09             
+  op01             $A0AD,$790C,$14,$08,$80,$16
+  op09             
+  loop             loc_16c30
+  writeByte        $CBA4,$00
+  writeByte        $CBA7,$00
+  call             loc_16873
+  op01             $98ED,$790C,$14,$08,$00,$16
+  op07             $AA
+  call             loc_16caa
+  op13             $10,$00,$BD25
+  op01             $998D,$790C,$14,$08,$00,$16
+  op07             $AA
+  call             loc_16caa
+  op08             $8C
+  op01             $913D,$790C,$14,$08,$80,$16
+  op13             $1C,$00,$9F54
+  op13             $1C,$01,$9F54
+  op02             $C91F,$57,$80,$70
+  op03             $200C,$C91F,$00,$00,$00,$00
+  op1C             $A62B,$1C
+  op1E             $8056,$05
+  print            $03,$AF
+  waitFrames       $8A
+  print            $03,$B0
+  waitFrames       $90
+  terminate        
+
+; end: 0x16CAA
+
+;==================================
+; Script 0x16CAA
+;==================================
+
+loc_16caa:
+  op07             $AA
+  op13             $10,$00,$BD25
+  waitFrames       $03
+  op13             $10,$00,$BD45
+  waitFrames       $03
+  op13             $10,$00,$BD65
+  waitFrames       $03
+  op13             $10,$00,$BD85
+  waitFrames       $03
+  op13             $10,$00,$BDA5
+  waitFrames       $03
+  op13             $10,$00,$BDC5
+  waitFrames       $03
+  op13             $1C,$00,$9F34
+  op1C             $A646,$1C
+  waitFrames       $0A
+  writeByte        $CBA4,$00
+  ret              
+
+; end: 0x16CE6
+
+;==================================
+; Script 0x16CE6
+;==================================
+
+enumScript18:
+
+  loadPsGraphic    $4000,$858F,$16
+  op01             $913D,$790C,$14,$08,$80,$16
+  op13             $1C,$00,$9F54
+  op13             $1C,$01,$9F54
+  op02             $C91F,$57,$80,$70
+  op03             $200C,$C91F,$00,$00,$00,$00
+  op1C             $A62B,$1C
+  op1E             $8056,$05
+  print            $03,$B1
+  waitFrames       $36
+  print            $03,$B2
+  waitFrames       $96
+  terminate        
+
+; end: 0x16D21
+
+;==================================
+; Script 0x16D21
+;==================================
+
+loc_16d21:
+  vramFill         $111F,$7B00,$0080
+  ret              
+
+; end: 0x16D29
+
+;==================================
+; Script 0x16D29
+;==================================
+
+loc_16d29:
+  op01             $8F49,$7900,$28,$08,$80,$0E
+  ret              
+
+; end: 0x16D33
+
+;==================================
+; Script 0x16D33
+;==================================
+
+loc_16d33:
+  vramFill         $111F,$7800,$0380
+  ret              
+
+; end: 0x16D3B
+
+;==================================
+; Script 0x16D3B
+;==================================
+
+loc_16d3b:
+  op13             $1C,$00,$8BF4
+  op09             
+  jump             loc_16f09
+
+; end: 0x16D44
+
+;==================================
+; Script 0x16D44
+;==================================
+
+enumScript0:
+
+  writeWord        $C90F,loc_16d3b
+  writeByte        $C90E,$01
+  loadPsGraphic    $4000,$8000,$10
+  op01             $9DAF,$780C,$14,$12,$80,$10
+  op13             $11,$00,$B219
+  waitFrames       $05
+  op13             $11,$00,$B22B
+  waitFrames       $05
+  op13             $11,$00,$B23D
+  waitFrames       $05
+  op13             $11,$00,$B24F
+  waitFrames       $05
+  op13             $11,$00,$B261
+  waitFrames       $05
+  op13             $11,$00,$B273
+  waitFrames       $05
+  op13             $11,$00,$B285
+  waitFrames       $05
+  op13             $11,$00,$B297
+  waitFrames       $05
+  op13             $11,$00,$B2A9
+  waitFrames       $05
+  op13             $11,$00,$B2BB
+  waitFrames       $05
+  op13             $11,$00,$B2CD
+  waitFrames       $05
+  op13             $11,$00,$B2DF
+  waitFrames       $05
+  op13             $11,$00,$B2F1
+  waitFrames       $05
+  op13             $11,$00,$B303
+  waitFrames       $05
+  op08             $96
+  op13             $11,$00,$B315
+  waitFrames       $05
+  waitFrames       $1E
+  op14             $0300,$0001
+  op14             $0400,$0001
+  waitFrames       $05
+  op14             $0300,$0012
+  op14             $0400,$0012
+  waitFrames       $05
+  op14             $0300,$0023
+  op14             $0400,$0023
+  waitFrames       $05
+  op14             $0300,$0046
+  op14             $0400,$0046
+  waitFrames       $05
+  op14             $0300,$0058
+  op14             $0400,$0058
+  waitFrames       $05
+  op14             $0300,$016A
+  op14             $0400,$016A
+  waitFrames       $05
+  op14             $0300,$018B
+  op14             $0400,$018B
+  waitFrames       $05
+  op14             $0300,$01AD
+  op14             $0400,$01AD
+  waitFrames       $05
+  op13             $11,$00,$B327
+  waitFrames       $05
+  op13             $11,$00,$B339
+  waitFrames       $05
+  op13             $11,$00,$B34B
+  waitFrames       $05
+  op13             $11,$00,$B35D
+  waitFrames       $05
+  op13             $11,$00,$B36F
+  waitFrames       $05
+  op13             $11,$00,$B381
+  waitFrames       $05
+  op07             $BC
+  setLoopCount     $03
+loc_16e57:
+  op13             $11,$00,$B393
+  waitFrames       $02
+  op13             $11,$00,$B3A5
+  waitFrames       $02
+  loop             loc_16e57
+  op13             $1C,$00,$8C34
+  waitFrames       $1E
+  op01             $A07F,$780C,$14,$12,$80,$10
+  op13             $11,$00,$B3B7
+  waitFrames       $05
+  op13             $11,$00,$B3D7
+  waitFrames       $05
+  op13             $11,$00,$B3F7
+  waitFrames       $05
+  op13             $11,$00,$B417
+  waitFrames       $05
+  op13             $11,$00,$B437
+  waitFrames       $05
+  op13             $11,$00,$B457
+  waitFrames       $05
+  op13             $11,$00,$B477
+  waitFrames       $05
+  op13             $11,$00,$B497
+  waitFrames       $05
+  op13             $11,$00,$B4B7
+  waitFrames       $05
+  op13             $11,$00,$B4D7
+  waitFrames       $05
+  op13             $11,$00,$B4F7
+  waitFrames       $05
+  setLoopCount     $03
+loc_16ec7:
+  op13             $11,$00,$B517
+  waitFrames       $02
+  op13             $11,$00,$B537
+  waitFrames       $02
+  loop             loc_16ec7
+  op13             $11,$00,$B557
+  waitFrames       $02
+  op13             $11,$00,$B577
+  waitFrames       $02
+  op13             $11,$00,$B597
+  waitFrames       $02
+  op13             $11,$00,$B5B7
+  waitFrames       $02
+  op13             $11,$00,$B5D7
+  waitFrames       $02
+  op13             $11,$00,$B5F7
+  waitFrames       $02
+  op13             $11,$00,$B617
+  waitFrames       $02
+loc_16f09:
+  writeByte        $C90E,$02
+  op01             $A07F,$780C,$14,$12,$80,$10
+  op13             $11,$00,$B637
+  waitFrames       $02
+  setLoopCount     $05
+loc_16f1f:
+  op13             $11,$00,$B657
+  waitFrames       $02
+  op14             $0900,$0000
+  op14             $0B00,$001F
+  op14             $0D00,$0444
+  waitFrames       $02
+  op14             $0900,$09FF
+  op14             $0B00,$0FFF
+  op14             $0D00,$0555
+  waitFrames       $02
+  op14             $0900,$0000
+  op14             $0B00,$001F
+  op14             $0D00,$0666
+  waitFrames       $02
+  op14             $0900,$09FF
+  op14             $0B00,$0FFF
+  op14             $0D00,$0777
+  waitFrames       $02
+  op14             $0900,$0000
+  op14             $0B00,$001F
+  op14             $0D00,$0888
+  waitFrames       $02
+  call             loc_16fc8
+  op14             $0D00,$0333
+  waitFrames       $02
+  op14             $0D00,$0444
+  waitFrames       $02
+  op14             $0D00,$0555
+  waitFrames       $02
+  op14             $0D00,$0666
+  waitFrames       $02
+  op14             $0D00,$0777
+  waitFrames       $02
+  op14             $0D00,$0888
+  waitFrames       $02
+  call             loc_16fc8
+  loop             loc_16f1f
+  op11             $03
+  terminate        
+
+; end: 0x16FB1
+
+;==================================
+; Script 0x16FB1
+;==================================
+
+enumScript2:
+
+  loadPsGraphic    $4000,$8000,$10
+  op01             $A07F,$780C,$14,$12,$80,$10
+  op13             $11,$00,$B5F7
+  jump             loc_16d3b
+
+; end: 0x16FC8
+
+;==================================
+; Script 0x16FC8
+;==================================
+
+loc_16fc8:
+  op14             $0D00,$0999
+  waitFrames       $03
+  op14             $0D00,$0AAA
+  waitFrames       $03
+  op14             $0D00,$0BBB
+  waitFrames       $03
+  op14             $0D00,$0CCC
+  waitFrames       $03
+  op14             $0D00,$0DDD
+  waitFrames       $03
+  op14             $0D00,$0EEE
+  waitFrames       $03
+  op14             $0D00,$0FFF
+  waitFrames       $03
+  op14             $0D00,$0EEE
+  waitFrames       $03
+  op14             $0D00,$0DDD
+  waitFrames       $03
+  op14             $0D00,$0CCC
+  waitFrames       $03
+  op14             $0D00,$0BBB
+  waitFrames       $03
+  op14             $0D00,$0AAA
+  waitFrames       $03
+  op14             $0D00,$0999
+  waitFrames       $03
+  op14             $0D00,$0888
+  waitFrames       $03
+  op14             $0D00,$0777
+  waitFrames       $03
+  op14             $0D00,$0666
+  waitFrames       $03
+  op14             $0D00,$0555
+  waitFrames       $03
+  op14             $0D00,$0444
+  waitFrames       $03
+  op14             $0D00,$0333
+  waitFrames       $03
+  op14             $0D00,$0222
+  waitFrames       $03
+  op14             $0D00,$0111
+  waitFrames       $03
+  op14             $0D00,$0000
+  waitFrames       $03
+  op14             $0D00,$0111
+  waitFrames       $03
+  op14             $0D00,$0222
+  waitFrames       $03
+  ret              
+
+; end: 0x17071
+
+;==================================
+; Script 0x17071
+;==================================
+
+enumScript3:
+
+  writeByte        $C90C,$01
+  loadPsGraphic    $4000,$BACF,$09
+  op01             $BED7,$79D0,$10,$04,$80,$09
+  op08             $92
+  call             loc_17d06
+  op14             $0100,$0999
+  waitFrames       $02
+  op14             $0100,$0555
+  op14             $0300,$0999
+  waitFrames       $02
+  op14             $0100,$0888
+  op14             $0300,$0555
+  op14             $0400,$0999
+  waitFrames       $02
+  op14             $0100,$0BBB
+  op14             $0300,$0888
+  op14             $0400,$0555
+  op14             $0500,$0999
+  waitFrames       $02
+  op1C             $A92B,$1C
+  waitFrames       $B4
+  writeByte        $CBA4,$00
+  call             loc_17def
+  loadPsGraphic    $4000,$92BF,$09
+  loadPsGraphic    $4E00,$9BC1,$09
+  op13             $1C,$00,$8C34
+  op14             $0200,$0000
+  call             loc_17309
+  op13             $1C,$01,$8C34
+  call             loc_16d33
+  vramFill         $0070,$79C0,$0020
+  vramFill         $0470,$7A00,$0020
+  call             loc_172f6
+  vramFill         $0000,$79C0,$0020
+  vramFill         $0000,$7A00,$0020
+  call             loc_17309
+  op09             
+  vramFill         $0070,$7980,$0020
+  vramFill         $0470,$7A40,$0020
+  call             loc_172f6
+  vramFill         $0000,$7980,$0020
+  vramFill         $0000,$7A40,$0020
+  call             loc_17309
+  op09             
+  vramFill         $0070,$7940,$0020
+  vramFill         $0470,$7A80,$0020
+  call             loc_172f6
+  vramFill         $0000,$7940,$0020
+  vramFill         $0000,$7A80,$0020
+  call             loc_17309
+  op09             
+  vramFill         $0070,$7900,$0020
+  vramFill         $0470,$7AC0,$0020
+  call             loc_172f6
+  vramFill         $0000,$7900,$0020
+  vramFill         $0000,$7AC0,$0020
+  ifEq             $C010,$80,loc_172a5
+  ifEq             $C1B3,$03,loc_171ea
+  ifEq             $C1B3,$02,loc_17241
+  loadPsGraphic    $4E00,$8000,$11
+  loadPsGraphic    $5A80,$AE44,$10
+  loadPsGraphic    $6000,$8386,$11
+  loadPsGraphic    $65E0,$8547,$11
+  call             loc_1684a
+  op09             
+  op13             $1C,$01,$8894
+  op13             $1C,$00,$8FB4
+  op14             $2F00,$0FB6
+  op26             $01
+  print            $03,$D6
+  waitFrames       $24
+  op20             $C947,$00
+  call             loc_17319
+  op25             
+  ifEq             $C90B,$01,loc_172f3
+  op02             $C947,$5B,$70,$E4
+  print            $03,$D7
+  setLoopCount     $05
+loc_171d6:
+  op14             $0F00,$0DFF
+  waitFrames       $02
+  op14             $0F00,$052F
+  waitFrames       $02
+  loop             loc_171d6
+  waitFrames       $18
+  terminate        
+
+; end: 0x171EA
+
+;==================================
+; Script 0x171EA
+;==================================
+
+loc_171ea:
+  loadPsGraphic    $4E00,$8160,$0E
+  loadPsGraphic    $60C0,$8E47,$0E
+  op01             $8F49,$7900,$28,$08,$80,$0E
+  op02             $C91F,$3F,$80,$D1
+  op09             
+  op13             $1C,$01,$82D4
+  op13             $1C,$00,$82F4
+  op14             $2000,$0FD7
+  op26             $01
+  print            $03,$D4
+  waitFrames       $18
+  call             loc_17319
+  op25             
+  ifEq             $C90B,$01,loc_172f3
+  print            $03,$D5
+  op1C             $A2A4,$1C
+  setLoopCount     $02
+loc_1722f:
+  op20             $C91F,$FC
+  waitFrames       $04
+  op20             $C91F,$D2
+  waitFrames       $04
+  loop             loc_1722f
+  waitFrames       $14
+  terminate        
+
+; end: 0x17241
+
+;==================================
+; Script 0x17241
+;==================================
+
+loc_17241:
+  call             loc_14fc8
+  op02             $C91F,$4F,$58,$E9
+  op02             $C947,$5F,$60,$EA
+  op02             $C96F,$60,$54,$CD
+  op09             
+  op13             $11,$00,$B7D7
+  op14             $2000,$0F81
+  op13             $1C,$01,$8514
+  op26             $01
+  print            $03,$D2
+  waitFrames       $30
+  call             loc_17319
+  op25             
+  ifEq             $C90B,$01,loc_172f3
+  print            $03,$D3
+  op02             $C91F,$4F,$58,$DA
+  op02             $C947,$5F,$60,$DC
+  op03             $0020,$C96F,$00,$04,$00,$00
+  setLoopCount     $05
+loc_17291:
+  op14             $0000,$0F81
+  waitFrames       $02
+  op14             $0000,$09FF
+  waitFrames       $02
+  loop             loc_17291
+  waitFrames       $14
+  terminate        
+
+; end: 0x172A5
+
+;==================================
+; Script 0x172A5
+;==================================
+
+loc_172a5:
+  loadPsGraphic    $5200,$9A82,$11
+  loadPsGraphic    $5E20,$A467,$11
+  call             loc_1628a
+  op02             $C91F,$4F,$70,$F0
+  op02             $C947,$5F,$78,$F1
+  op09             
+  op13             $1C,$00,$97D4
+  op14             $2000,$0FC2
+  op14             $2E00,$0A61
+  op13             $1C,$01,$9934
+  op26             $01
+  print            $03,$D8
+  waitFrames       $2D
+  op20             $C947,$F3
+  call             loc_17319
+  op25             
+  ifEq             $C90B,$01,loc_172f3
+  call             loc_1687a
+  print            $03,$D9
+  waitFrames       $1E
+  terminate        
+
+; end: 0x172F3
+
+;==================================
+; Script 0x172F3
+;==================================
+
+loc_172f3:
+  op16             $01
+  terminate        
+
+; end: 0x172F6
+
+;==================================
+; Script 0x172F6
+;==================================
+
+loc_172f6:
+  op14             $0800,$0FFF
+  op09             
+  op14             $0A00,$0FFF
+  op09             
+  op14             $0D00,$0FFF
+  op09             
+  ret              
+
+; end: 0x17309
+
+;==================================
+; Script 0x17309
+;==================================
+
+loc_17309:
+  op14             $0800,$0000
+  op14             $0A00,$0000
+  op14             $0D00,$0000
+  ret              
+
+; end: 0x17319
+
+;==================================
+; Script 0x17319
+;==================================
+
+loc_17319:
+  op01             $BCE2,$7BD8,$08,$01,$01,$1C
+  ret              
+
+; end: 0x17323
+
+;==================================
+; Script 0x17323
+;==================================
+
+enumScript4:
+
+enumScript1A:
+
+  writeByte        $C90C,$01
+  loadPsGraphic    $4000,$92BF,$09
+  loadPsGraphic    $4E00,$8000,$11
+  loadPsGraphic    $5200,$A1ED,$16
+  loadPsGraphic    $5A80,$AE44,$10
+  loadPsGraphic    $5E20,$A467,$11
+  loadPsGraphic    $6000,$8386,$11
+  loadPsGraphic    $65E0,$8547,$11
+  op13             $1C,$01,$8894
+  op13             $10,$00,$BDE5
+  call             loc_1684a
+  print            $03,$B3
+  waitFrames       $2D
+  print            $03,$B4
+  waitFrames       $51
+  print            $03,$B5
+  waitFrames       $66
+  call             loc_16873
+  op02             $C91F,$4F,$58,$C9
+  op02             $C947,$5F,$60,$CC
+  call             loc_14f99
+  print            $03,$B6
+  waitFrames       $54
+  op13             $1C,$01,$8894
+  op13             $10,$00,$BDE5
+  call             loc_1684a
+  print            $03,$B7
+  waitFrames       $6F
+  print            $03,$B8
+  waitFrames       $75
+  call             loc_1687a
+  op13             $10,$00,$BE05
+  op01             $A514,$790C,$14,$08,$00,$16
+  print            $03,$B9
+  waitFrames       $33
+  print            $03,$BA
+  waitFrames       $3C
+  print            $03,$BB
+  waitFrames       $81
+  op13             $1C,$01,$8894
+  op13             $10,$00,$BDE5
+  call             loc_1684a
+  loadPsGraphic    $5200,$9A82,$11
+  print            $03,$BC
+  waitFrames       $36
+  print            $03,$BD
+  waitFrames       $60
+  call             loc_16873
+  op13             $10,$00,$BE25
+  op13             $1C,$01,$9934
+  op02             $C91F,$4F,$70,$F0
+  op02             $C947,$5F,$78,$F1
+  op09             
+  call             loc_1628a
+  print            $03,$BE
+  waitFrames       $60
+  print            $03,$BF
+  waitFrames       $60
+  call             loc_1687a
+  op02             $C91F,$4F,$58,$DA
+  op02             $C947,$5F,$60,$CC
+  call             loc_14f99
+  print            $03,$C0
+  waitFrames       $33
+  print            $03,$C1
+  waitFrames       $66
+  print            $03,$C2
+  waitFrames       $48
+  op13             $1C,$01,$8894
+  op13             $10,$00,$BDE5
+  call             loc_1684a
+  loadPsGraphic    $4200,$A89D,$11
+  print            $03,$C3
+  waitFrames       $30
+  op2C             
+  print            $03,$C4
+  waitFrames       $48
+  call             loc_16d21
+  call             loc_16873
+  op13             $1C,$00,$8C34
+  op09             
+  loadPsGraphic    $5200,$A5B4,$16
+  print            $03,$C5
+  call             loc_1688b
+  print            $03,$C6
+  call             loc_1694e
+  waitFrames       $1E
+  call             loc_16d21
+  call             loc_16873
+  op13             $1C,$00,$9FF4
+  op09             
+  op01             $AA16,$790C,$14,$08,$80,$16
+  loadPsGraphic    $4400,$8FAD,$09
+  loadPsGraphic    $4800,$A311,$09
+  print            $03,$C7
+  waitFrames       $38
+  op1C             $A505,$1C
+  op07             $B3
+  print            $03,$C8
+  waitFrames       $49
+  writeByte        $CBA4,$00
+  call             loc_16873
+  loadPsGraphic    $5200,$AB56,$16
+  op13             $1C,$00,$8314
+  op02             $C91F,$58,$80,$B8
+  op1C             $A80A,$1C
+  op01             $A767,$790C,$14,$08,$80,$09
+  op07             $C0
+  op1B             $10,$00
+  print            $03,$C9
+  waitFrames       $78
+  writeByte        $C908,$00
+  writeByte        $CBA4,$00
+  call             loc_16d21
+  call             loc_16873
+  loadPsGraphic    $4E00,$B3A8,$16
+  op13             $1C,$00,$9FF4
+  op09             
+  op01             $B00D,$790C,$14,$08,$00,$16
+  print            $03,$CA
+  waitFrames       $12
+  op1C             $A505,$1C
+  op07             $B3
+  waitFrames       $3E
+  writeByte        $CBA4,$00
+  call             loc_16873
+  op13             $1C,$00,$8BF4
+  op13             $1C,$01,$8A74
+  loadPsGraphic    $4800,$80CB,$17
+  loadPsGraphic    $5200,$89C8,$11
+  loadPsGraphic    $5A80,$AE44,$10
+  op02             $C91F,$3C,$6C,$E5
+  op14             $0700,$05EF
+  op09             
+  op29             $0240,$798C,$04,$00
+  op29             $0040,$79B2,$04,$00
+  call             loc_17be5
+  op29             $0041,$798C,$04,$00
+  op29             $0041,$79B2,$04,$00
+  call             loc_17bd5
+  op09             
+  op29             $0240,$798E,$04,$00
+  op29             $0040,$79B0,$04,$00
+  call             loc_17be5
+  op29             $0041,$798E,$04,$00
+  op29             $0041,$79B0,$04,$00
+  call             loc_17bd5
+  op09             
+  op29             $0240,$7990,$04,$00
+  op29             $0040,$79AE,$04,$00
+  call             loc_17be5
+  op29             $0041,$7990,$04,$00
+  op29             $0041,$79AE,$04,$00
+  call             loc_17bd5
+  op09             
+  op29             $0240,$7992,$04,$00
+  op29             $0040,$79AC,$04,$00
+  call             loc_17be5
+  op29             $0041,$7992,$04,$00
+  op29             $0041,$79AC,$04,$00
+  call             loc_17bd5
+  op09             
+  op29             $0240,$7994,$04,$00
+  op29             $0040,$79AA,$04,$00
+  call             loc_17be5
+  op29             $0041,$7994,$04,$00
+  op29             $0041,$79AA,$04,$00
+  call             loc_17bd5
+  op09             
+  op29             $0240,$7996,$04,$00
+  op29             $0040,$79A8,$04,$00
+  call             loc_17be5
+  op29             $0041,$7996,$04,$00
+  op29             $0041,$79A8,$04,$00
+  call             loc_17bd5
+  op09             
+  op29             $0240,$7998,$04,$00
+  op29             $0040,$79A6,$04,$00
+  call             loc_17be5
+  op29             $0041,$7998,$04,$00
+  op29             $0041,$79A6,$04,$00
+  call             loc_17bd5
+  op09             
+  op29             $0240,$799A,$04,$00
+  op29             $0040,$79A4,$04,$00
+  call             loc_17be5
+  op29             $0041,$799A,$04,$00
+  op29             $0041,$79A4,$04,$00
+  call             loc_17bd5
+  op09             
+  op29             $0240,$799C,$04,$00
+  op29             $0040,$79A2,$04,$00
+  call             loc_17be5
+  op29             $0041,$799C,$04,$00
+  op29             $0041,$79A2,$04,$00
+  call             loc_17bd5
+  op09             
+  op29             $0240,$799E,$04,$00
+  op29             $0040,$79A0,$04,$00
+  call             loc_17be5
+  op29             $0041,$799E,$04,$00
+  op29             $0041,$79A0,$04,$00
+  call             loc_17bd5
+  op09             
+  op13             $1C,$00,$8874
+  op02             $C96F,$38,$58,$E2
+  op02             $C997,$60,$98,$E1
+  call             loc_15752
+  waitFrames       $14
+  call             loc_16d33
+  loadPsGraphic    $4000,$858F,$16
+  loadPsGraphic    $5800,$80CB,$17
+  call             loc_16873
+  op20             $C9BF,$00
+  op20             $C9E7,$00
+  op01             $913D,$790C,$14,$08,$80,$16
+  op13             $10,$00,$9F54
+  op13             $10,$01,$BFC5
+  op1C             $A62B,$1C
+  op1E             $8056,$05
+  op02             $C91F,$54,$73,$75
+  op03             $0210,$C91F,$40,$00,$00,$00
+  op02             $C947,$54,$73,$76
+  op03             $0210,$C947,$40,$00,$00,$00
+  op07             $C3
+  print            $03,$CB
+  waitFrames       $33
+  print            $03,$CC
+  waitFrames       $54
+  print            $03,$CD
+  waitFrames       $60
+  writeByte        $CBA4,$00
+  call             loc_16873
+  op13             $10,$00,$BE65
+  op01             $B5DC,$7800,$20,$12,$80,$16
+  op28             $00
+  op1C             $A46A,$1C
+  op1E             $8095,$05
+  op02             $C91F,$50,$00,$75
+  op03             $002D,$C91F,$00,$00,$00,$02
+  op02             $C947,$50,$00,$76
+  op03             $002D,$C947,$00,$00,$00,$02
+  op07             $B4
+  waitFrames       $2D
+  op02             $C91F,$48,$58,$74
+  op03             $0030,$C91F,$00,$FF,$00,$FF
+  op02             $C947,$48,$68,$74
+  op03             $0030,$C947,$00,$FF,$00,$01
+  op02             $C96F,$60,$58,$74
+  op03             $0030,$C96F,$00,$01,$00,$FF
+  op02             $C997,$60,$68,$74
+  op03             $0030,$C997,$00,$01,$00,$01
+  writeWord        $CBDF,$FF00
+  setLoopCount     $03
+loc_17779:
+  op07             $B3
+  waitFrames       $0F
+  loop             loc_17779
+  writeByte        $CBA7,$00
+  writeWord        $C1C4,$0000
+  call             loc_1687a
+  call             loc_16d33
+  op09             
+  loadPsGraphic    $5800,$B0AD,$16
+  op13             $1C,$00,$A054
+  op01             $B308,$790C,$14,$08,$00,$16
+  op1C             $A49D,$1C
+  op07             $B3
+  print            $03,$CE
+  waitFrames       $36
+  writeByte        $CBA4,$00
+  op16             $01
+  terminate        
+
+; end: 0x177B6
+
+;==================================
+; Script 0x177B6
+;==================================
+
+enumScript5:
+
+  writeByte        $C90C,$01
+  loadPsGraphic    $4000,$92BF,$09
+  loadPsGraphic    $4E00,$9BC1,$09
+  loadPsGraphic    $5200,$BAA4,$16
+  loadPsGraphic    $63E0,$B14F,$09
+  call             loc_16d33
+  vramFill         $0000,$7900,$0100
+  op02             $CA37,$32,$FF,$7A
+  op03             $1F7F,$CA37,$00,$00,$C0,$00
+  op02             $CA5F,$48,$B4,$79
+  op03             $1E7F,$CA5F,$00,$00,$A0,$00
+  op02             $CA87,$60,$50,$7B
+  op03             $077F,$CA87,$00,$00,$80,$00
+  op09             
+  op08             $99
+  op13             $10,$00,$BE85
+  op13             $1C,$01,$A164
+  op15             $01
+  op01             $BD92,$7B4C,$14,$01,$01,$1C
+  op01             $BE46,$7BCC,$14,$01,$01,$1C
+  call             loc_17bf8
+  op01             $BDA6,$7B4C,$14,$01,$01,$1C
+  op01             $BE5A,$7BCC,$14,$01,$01,$1C
+  call             loc_17bf8
+  op01             $BDBA,$7B4C,$14,$01,$01,$1C
+  call             loc_17c5b
+  call             loc_17bf8
+  op01             $BE6E,$7BCC,$14,$01,$01,$1C
+  call             loc_17bf8
+  op01             $BDCE,$7B4C,$14,$01,$01,$1C
+  op01             $BE82,$7BCC,$14,$01,$01,$1C
+  call             loc_17bf8
+  op01             $BDE2,$7B4C,$14,$01,$01,$1C
+  op01             $BE96,$7BCC,$14,$01,$01,$1C
+  call             loc_17bf8
+  op01             $BEAA,$7BCC,$14,$01,$01,$1C
+  call             loc_17c89
+  call             loc_17bf8
+  op01             $BDF6,$7B4C,$14,$01,$01,$1C
+  op01             $BEBE,$7BCC,$14,$01,$01,$1C
+  call             loc_17bf8
+  op01             $BED2,$7BCC,$14,$01,$01,$1C
+  call             loc_17bf8
+  op01             $BEE6,$7BCC,$14,$01,$01,$1C
+  call             loc_17bf8
+  op01             $BE0A,$7B4C,$14,$01,$01,$1C
+  op01             $BEFA,$7BCC,$14,$01,$01,$1C
+  call             loc_17c5b
+  call             loc_17bf8
+  op01             $BE1E,$7B4C,$14,$01,$01,$1C
+  op01             $BF0E,$7BCC,$14,$01,$01,$1C
+  call             loc_17bf8
+  op01             $BE32,$7B4C,$14,$01,$01,$1C
+  op01             $BF22,$7BCC,$14,$01,$01,$1C
+  call             loc_17bf8
+  op01             $BF36,$7BCC,$14,$01,$01,$1C
+  call             loc_17bf8
+  call             loc_16d21
+  op14             $0100,$0FFF
+  op02             $C91F,$40,$A0,$78
+  op02             $C947,$50,$B0,$78
+  op1C             $A42C,$1C
+  waitFrames       $05
+  op20             $C91F,$00
+  op20             $C947,$00
+  writeByte        $CBA4,$00
+  op03             $00C8,$CA37,$00,$00,$00,$01
+  op03             $00C8,$CA5F,$00,$00,$00,$01
+  op03             $00C8,$CA87,$00,$00,$00,$01
+  op2A             
+  op13             $1C,$01,$8514
+  op01             $9B81,$793C,$08,$08,$00,$09
+  op02             $C91F,$4F,$09,$7C
+  op03             $7C50,$C91F,$00,$00,$00,$01
+  op02             $C947,$5F,$10,$CB
+  op03             $7D50,$C947,$00,$00,$00,$01
+  writeByte        $C013,$01
+  op1F             $0078,$0100
+  waitFrames       $20
+  op20             $C947,$CC
+  print            $03,$CF
+  waitFrames       $2F
+  writeWord        $C1B8,$0000
+  writeWord        $C959,$0000
+  waitFrames       $20
+  call             loc_16d21
+  op20             $C947,$CB
+  waitFrames       $14
+  op20             $C91F,$E9
+  op20             $C947,$DD
+  waitFrames       $14
+  op20             $C947,$EA
+  waitFrames       $04
+  op20             $C91F,$D4
+  op20             $C947,$00
+  waitFrames       $20
+  writeWord        $C1B8,$FF00
+  op03             $0050,$C91F,$00,$00,$00,$FF
+  op03             $0050,$C96F,$00,$00,$00,$FF
+  waitFrames       $50
+  writeByte        $C1BF,$00
+  op0E             $00,$C8
+  op1C             $A42C,$1C
+  op02             $CA5F,$48,$1E,$79
+  op03             $1E7F,$CA5F,$00,$00,$A0,$00
+  waitFrames       $78
+  op02             $CA37,$30,$1E,$7A
+  op03             $1F7F,$CA37,$00,$00,$C0,$00
+  waitFrames       $78
+  op02             $CA87,$62,$1E,$7B
+  op03             $077F,$CA87,$00,$00,$80,$00
+  waitFrames       $78
+  op02             $C91F,$40,$A0,$78
+  op03             $0080,$C91F,$00,$01,$00,$FF
+  op02             $C947,$50,$B0,$78
+  op03             $0080,$C947,$00,$01,$00,$FF
+  waitFrames       $80
+  writeByte        $CBA4,$00
+  op14             $0300,$0F41
+  call             loc_17cb7
+  vramFill         $0070,$78C0,$0020
+  vramFill         $0470,$7B00,$0020
+  call             loc_17cc7
+  vramFill         $0000,$78C0,$0020
+  vramFill         $0000,$7B00,$0020
+  call             loc_17cb7
+  op09             
+  vramFill         $0070,$7880,$0020
+  vramFill         $0470,$7B40,$0020
+  call             loc_17cc7
+  vramFill         $0000,$7880,$0020
+  vramFill         $0000,$7B40,$0020
+  call             loc_17cb7
+  op09             
+  vramFill         $0070,$7840,$0020
+  vramFill         $0470,$7B80,$0020
+  call             loc_17cc7
+  vramFill         $0000,$7840,$0020
+  vramFill         $0000,$7B80,$0020
+  call             loc_17cb7
+  op09             
+  vramFill         $0070,$7800,$0020
+  vramFill         $0470,$7BC0,$0020
+  call             loc_17cc7
+  vramFill         $0000,$7800,$0020
+  vramFill         $0000,$7BC0,$0020
+  call             loc_17cb7
+  op09             
+  vramFill         $0470,$7C00,$0020
+  call             loc_17cc7
+  vramFill         $0000,$7C00,$0020
+  call             loc_17cb7
+  op09             
+  vramFill         $0470,$7C40,$0020
+  call             loc_17cc7
+  vramFill         $0000,$7C40,$0020
+  call             loc_17cb7
+  op09             
+  vramFill         $0470,$7C80,$0020
+  call             loc_17cc7
+  vramFill         $0000,$7C80,$0020
+  call             loc_17cb7
+  op09             
+  vramFill         $0470,$7CC0,$0020
+  call             loc_17cc7
+  vramFill         $0000,$7CC0,$0020
+  call             loc_17cb7
+  op09             
+  op13             $1C,$00,$A184
+  op03             $0064,$CA37,$00,$FF,$80,$00
+  op03             $0064,$CA5F,$00,$FF,$80,$00
+  op03             $0064,$CA87,$00,$FF,$80,$00
+  op2A             
+  loadPsGraphic    $6000,$8265,$17
+  vramFill         $0000,$7800,$0380
+  op0E             $00,$38
+  op09             
+  op1C             $A3BE,$1C
+  op01             $9344,$780C,$14,$06,$80,$17
+  op0F             $00,$01,$2F
+  op09             
+  op01             $9434,$798C,$14,$06,$80,$17
+  op0F             $00,$01,$2F
+  op09             
+  op01             $9524,$7B0C,$14,$06,$80,$17
+  op0F             $00,$01,$2E
+  op09             
+  op0F             $00,$00,$00
+  waitFrames       $F0
+  waitFrames       $F0
+  op11             $01
+  op14             $0200,$0000
+  writeByte        $CBA4,$00
+  vramFill         $01A3,$7800,$0380
+  op01             $9614,$799E,$03,$05,$80,$17
+  call             loc_17d06
+  waitFrames       $B4
+  op14             $0100,$0DDD
+  waitFrames       $02
+  op14             $0100,$0CCC
+  op14             $0300,$0DDD
+  waitFrames       $02
+  op14             $0100,$0AAA
+  op14             $0300,$0CCC
+  op14             $0400,$0DDD
+  waitFrames       $02
+  call             loc_17e04
+  terminate        
+
+; end: 0x17BD5
+
+;==================================
+; Script 0x17BD5
+;==================================
+
+loc_17bd5:
+  op14             $0800,$0000
+  op14             $0900,$0000
+  op14             $0A00,$0000
+  ret              
+
+; end: 0x17BE5
+
+;==================================
+; Script 0x17BE5
+;==================================
+
+loc_17be5:
+  op14             $0800,$05EF
+  op09             
+  op14             $0900,$05EF
+  op09             
+  op14             $0A00,$05EF
+  op09             
+  ret              
+
+; end: 0x17BF8
+
+;==================================
+; Script 0x17BF8
+;==================================
+
+loc_17bf8:
+  op14             $0100,$0222
+  waitFrames       $04
+  op14             $0100,$0444
+  waitFrames       $04
+  op14             $0100,$0666
+  waitFrames       $04
+  op14             $0100,$0888
+  waitFrames       $04
+  op14             $0100,$0AAA
+  waitFrames       $04
+  op14             $0100,$0CCC
+  waitFrames       $04
+  op14             $0100,$0FFF
+  waitFrames       $1E
+  op14             $0100,$0CCC
+  waitFrames       $04
+  op14             $0100,$0AAA
+  waitFrames       $04
+  op14             $0100,$0888
+  waitFrames       $04
+  op14             $0100,$0666
+  waitFrames       $04
+  op14             $0100,$0444
+  waitFrames       $04
+  op14             $0100,$0222
+  waitFrames       $04
+  op14             $0100,$0000
+  waitFrames       $04
+  ret              
+
+; end: 0x17C5B
+
+;==================================
+; Script 0x17C5B
+;==================================
+
+loc_17c5b:
+  op02             $C997,$70,$94,$77
+  op03             $00C8,$C997,$80,$FF,$80,$FF
+  op02             $C9BF,$7A,$9E,$77
+  op03             $00C8,$C9BF,$80,$FF,$80,$FF
+  op02             $C9E7,$7A,$8A,$77
+  op03             $00C8,$C9E7,$80,$FF,$80,$FF
+  ret              
+
+; end: 0x17C89
+
+;==================================
+; Script 0x17C89
+;==================================
+
+loc_17c89:
+  op02             $C997,$70,$B2,$77
+  op03             $00C8,$C997,$80,$FF,$80,$FF
+  op02             $C9BF,$7A,$BC,$77
+  op03             $00C8,$C9BF,$80,$FF,$80,$FF
+  op02             $C9E7,$7A,$A8,$77
+  op03             $00C8,$C9E7,$80,$FF,$80,$FF
+  ret              
+
+; end: 0x17CB7
+
+;==================================
+; Script 0x17CB7
+;==================================
+
+loc_17cb7:
+  op14             $0800,$0000
+  op14             $0A00,$0000
+  op14             $0D00,$0000
+  ret              
+
+; end: 0x17CC7
+
+;==================================
+; Script 0x17CC7
+;==================================
+
+loc_17cc7:
+  op14             $0800,$0F41
+  op09             
+  op14             $0A00,$0F41
+  op09             
+  op14             $0D00,$0F41
+  op09             
+  ret              
+
+; end: 0x17CDA
+
+;==================================
+; Script 0x17CDA
+;==================================
+
+enumScript19:
+
+  loadPsGraphic    $4E00,$8160,$0E
+  loadPsGraphic    $60C0,$8E47,$0E
+  call             loc_16d29
+  op02             $C91F,$3F,$80,$D2
+  op13             $1C,$00,$82F4
+  op13             $1C,$01,$82D4
+  waitFrames       $14
+  print            $03,$D0
+  waitFrames       $56
+  print            $03,$D1
+  waitFrames       $47
+  terminate        
+
+; end: 0x17D06
+
+;==================================
+; Script 0x17D06
+;==================================
+
+loc_17d06:
+  op14             $0100,$0111
+  waitFrames       $02
+  op14             $0100,$0222
+  waitFrames       $02
+  op14             $0100,$0444
+  op14             $0300,$0111
+  waitFrames       $02
+  op14             $0100,$0666
+  op14             $0300,$0222
+  waitFrames       $02
+  op14             $0100,$0888
+  op14             $0300,$0444
+  op14             $0400,$0111
+  waitFrames       $02
+  op14             $0100,$0AAA
+  op14             $0300,$0666
+  op14             $0400,$0222
+  waitFrames       $02
+  op14             $0100,$0DDD
+  op14             $0300,$0888
+  op14             $0400,$0444
+  op14             $0500,$0111
+  waitFrames       $02
+  op14             $0100,$0FFF
+  op14             $0300,$0AAA
+  op14             $0400,$0666
+  op14             $0500,$0222
+  waitFrames       $02
+  op14             $0300,$0DDD
+  op14             $0400,$0888
+  op14             $0500,$0444
+  op14             $0600,$0111
+  waitFrames       $02
+  op14             $0300,$0FFF
+  op14             $0400,$0AAA
+  op14             $0500,$0666
+  op14             $0600,$0222
+  waitFrames       $02
+  op14             $0400,$0DDD
+  op14             $0500,$0888
+  op14             $0600,$0444
+  waitFrames       $02
+  op14             $0400,$0FFF
+  op14             $0500,$0AAA
+  op14             $0600,$0666
+  waitFrames       $02
+  op14             $0500,$0DDD
+  op14             $0600,$0888
+  waitFrames       $02
+  op14             $0500,$0FFF
+  op14             $0600,$0AAA
+  waitFrames       $02
+  op14             $0600,$0DDD
+  waitFrames       $02
+  op14             $0600,$0FFF
+  waitFrames       $02
+  ret              
+
+; end: 0x17DEF
+
+;==================================
+; Script 0x17DEF
+;==================================
+
+loc_17def:
+  op13             $1C,$00,$9D14
+  waitFrames       $02
+  op13             $1C,$00,$9D34
+  waitFrames       $02
+  op13             $1C,$00,$9D54
+  waitFrames       $02
+loc_17e04:
+  op13             $1C,$00,$9D74
+  waitFrames       $02
+  op13             $1C,$00,$9D94
+  waitFrames       $02
+  op13             $1C,$00,$9DB4
+  waitFrames       $02
+  op13             $1C,$00,$9DD4
+  waitFrames       $02
+  op13             $1C,$00,$9DF4
+  waitFrames       $02
+  op13             $1C,$00,$9E14
+  waitFrames       $02
+  op13             $1C,$00,$9E34
+  waitFrames       $02
+  op14             $0400,$0000
+  op14             $0500,$0111
+  op14             $0600,$0222
+  waitFrames       $02
+  op14             $0500,$0000
+  op14             $0600,$0111
+  waitFrames       $02
+  op14             $0600,$0000
+  waitFrames       $02
+  ret              
+
+; end: 0x17E5A
+
